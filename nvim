@@ -1,0 +1,12 @@
+call plug#begin()
+Plug 'tpope/vim-fugitive'
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/syntastic'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+call plug#end()
+
+set number
+set guicursor=
+set background=dark
+colorscheme gruvbox
