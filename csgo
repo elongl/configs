@@ -1,19 +1,27 @@
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
+
 bind z "use weapon_smokegrenade";
 bind x "use weapon_flashbang";
 bind c "use weapon_hegrenade";
 bind v "use weapon_molotov; use weapon_incgrenade";
+
 bind capslock "noclip";
 bind f1 "mp_restartgame 1";
+
 bind kp_ins "buy p250";
-bind kp_end "buy ak47; buy m4a1";
+bind kp_del "buy tec9";
+bind kp_enter "buy vest; buy deagle";
+bind kp_end "buy ak47";
 bind kp_downarrow "buy awp";
 bind kp_plus "buy vest; buy vesthelm";
 bind kp_minus "buy defuser";
-bind kp_rightarrow "buy smokegrenade";
+bind kp_leftarrow "buy smokegrenade";
 bind kp_5 "buy flashbang";
 bind kp_rightarrow "buy hegrenade";
-bind kp_home "buy molotov; buy incgrenade";
-bind kp_pgdn "buy famas;buy galil";
-bind f3 "r_cleardecals"
+bind kp_home "buy molotov";
+bind kp_pgdn "buy famas";
+bind kp_uparrow "buy ssg08";
+bind kp_pgup "buy p90";
+
+bind f3 "r_cleardecals";
