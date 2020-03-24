@@ -4,6 +4,7 @@
 - VSCode
 - Wireshark
 - VirtualBox
+- Docker
 - Chrome
 - zsh & oh-my-zsh
 - IDA Pro
@@ -13,3 +14,8 @@
 ## Python Modules
 - IPython
 - Pwntools
+
+
+## VSCode Extensions
+- Python
+- GitLens
