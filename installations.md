@@ -7,7 +7,7 @@
 - Docker
 - Chrome
 - zsh & oh-my-zsh
-- IDA Pro, GDB
+- IDA Pro, GDB, GCC
 - Discord
 
 
