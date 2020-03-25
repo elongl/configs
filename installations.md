@@ -19,3 +19,8 @@
 ## VSCode Extensions
 - Python
 - GitLens
+
+## Chrome Extensions
+- Vimium
+- Dark Reader
+- Adblock
