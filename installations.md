@@ -26,4 +26,4 @@
 
 
 ## System
-- systemd-coredump
+- systemd-coredump (coredumpctl)
