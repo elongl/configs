@@ -8,7 +8,6 @@
 - Chrome
 - zsh & oh-my-zsh
 - IDA Pro, GDB (pwndbg), GCC
-- Discord
 
 
 ## Python Modules
@@ -24,3 +23,7 @@
 - Vimium
 - Dark Reader
 - Adblock
+
+
+## System
+- systemd-coredump
