@@ -9,6 +9,7 @@
 - zsh & oh-my-zsh
 - IDA Pro, GDB (pwndbg), GCC
 - Discord
+- Gimp
 
 
 ## Python Modules
