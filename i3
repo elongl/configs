@@ -171,7 +171,7 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-
+       
 # Brightness key bindings
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
@@ -183,6 +183,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-exec "setxkbmap -layout us,il"
-exec "setxkbmap -option 'grp:win_space_toggle'"
+exec setxkbmap -layout us,il
+exec setxkbmap -option 'grp:win_space_toggle'
+exec redshift -t 6500:3500
 bindsym Mod1+l exec "i3lock -c 000000"
