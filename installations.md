@@ -33,3 +33,8 @@
 
 ## Notes
 - Make terminal partially transparent.
+
+
+## i3
+- Redshift
+- Compton

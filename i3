@@ -183,7 +183,8 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-exec setxkbmap -layout us,il
-exec setxkbmap -option 'grp:win_space_toggle'
-exec redshift -t 6500:3500
+exec "setxkbmap -layout us,il"
+exec "setxkbmap -option 'grp:win_space_toggle'"
+exec "redshift -t 6500:3500"
+exec "compton"
 bindsym Mod1+l exec "i3lock -c 000000"
