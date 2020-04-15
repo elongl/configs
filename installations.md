@@ -29,3 +29,7 @@
 
 ## System
 - systemd-coredump (coredumpctl)
+
+
+## Notes
+- Make terminal partially transparent.
