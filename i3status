@@ -8,10 +8,8 @@ general {
     color_bad = '#ba5e57'
 }
 
-{%@@ if profile == "laptop" @@%} 
 order += "wireless _first_"
 order += "battery all"
-{%@@ endif @@%}
 
 order += "tztime local"
 order += "volume master"
