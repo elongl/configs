@@ -8,10 +8,10 @@ general {
     color_bad = '#ba5e57'
 }
 
-order += "wireless _first_"
-order += "battery all"
-order += "tztime local"
 order += "volume master"
+order += "battery all"
+order += "wireless _first_"
+order += "tztime local"
 
 wireless _first_ {
     format_up = "<span background='#fc6f03'> %quality at %essid </span>"
@@ -19,7 +19,7 @@ wireless _first_ {
 }
 
 volume master {
-    format = "<span background='#781e0e'> %volume </span>"
+    format = "<span background='#781e0e'> VOL %volume </span>"
     format_muted = "<span background='#781e0e'> Muted </span>"
     device = "default"
     mixer = "Master"
@@ -28,7 +28,7 @@ volume master {
 
 battery all {
     last_full_capacity = true
-    format = "<span background='#218f1b'> %percentage </span>"
+    format = "<span background='#218f1b'> BAT %percentage </span>"
     format_down = "<span background='#218f1b'> No Battery </span>"
     status_chr = "<span background='#218f1b'> Charging </span>"
     status_bat = "<span background='#218f1b'> Battery </span>"
