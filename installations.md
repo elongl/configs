@@ -36,5 +36,6 @@
 
 
 ## i3
-- Redshift
-- Compton
+- Redshift (Night Light)
+- Compton (Transparency)
+- Feh (Wallpapers)
