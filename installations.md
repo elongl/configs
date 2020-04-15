@@ -39,3 +39,4 @@
 - Redshift (Night Light)
 - Compton (Transparency)
 - Feh (Wallpapers)
+- Scrot (Screenshots)
