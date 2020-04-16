@@ -178,6 +178,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 bindsym $mod+r mode "resize"
 
+# Lock screen
+bindsym $mod+shift+x exec "i3lock -c 000000"
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
@@ -186,4 +189,3 @@ bar {
 exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
 exec "redshift -t 6500:3500"
 exec "compton"
-bindsym Mod1+l exec "i3lock -c 000000"
