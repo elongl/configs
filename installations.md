@@ -21,6 +21,7 @@
 - Python
 - GitLens
 
+
 ## Chrome Extensions
 - Vimium
 - Dark Reader
