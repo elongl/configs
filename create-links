@@ -1,0 +1,16 @@
+#!/bin/sh
+
+ln -s $(pwd)/gdbinit ~/.gdbinit
+echo "Linked GDB config."
+
+ln -s $(pwd)/zshrc ~/.zshrc
+echo "Linked zsh config."
+
+ln -s $(pwd)/i3 ~/.config/i3/config
+echo "Linked i3 config."
+
+ln -s $(pwd)/i3status ~/.config/i3status/config
+echo "Linked i3status configuration."
+
+ln -s $(pwd)/gtk3 ~/.config/gtk-3.0/settings.ini
+echo "Linked GTK config."
