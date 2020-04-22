@@ -179,7 +179,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 bindsym $mod+r mode "resize"
 
 # Lock screen
-bindsym $mod+shift+x exec "i3lock -c 000000"
+bindsym $mod+shift+x exec "i3lock-fancy"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
