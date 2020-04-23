@@ -37,9 +37,7 @@
 
 
 ## i3
-- Redshift (Night Light)
 - Compton (Transparency)
 - Feh (Wallpapers)
 - Scrot (Screenshots)
 - i3lock-fancy
-- xbacklight (Screen Brightness)
