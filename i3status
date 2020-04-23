@@ -28,6 +28,7 @@ volume master {
 
 battery all {
     last_full_capacity = true
+    integer_battery_capacity = true
     format = "<span background='#218f1b'> BAT %percentage </span>"
     format_down = "<span background='#218f1b'> No Battery </span>"
     status_chr = "<span background='#218f1b'> Charging </span>"
