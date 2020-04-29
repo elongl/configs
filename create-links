@@ -4,7 +4,10 @@ ln -s $(pwd)/gdbinit ~/.gdbinit
 echo "Linked GDB config."
 
 ln -s $(pwd)/zshrc ~/.zshrc
-echo "Linked zsh config."
+echo "Linked Zsh config."
+
+ln -s $(pwd)/vim ~/.config/nvim/init.vim
+echo "Linked Vim config."
 
 ln -s $(pwd)/i3 ~/.config/i3/config
 echo "Linked i3 config."
