@@ -1,1 +1,1 @@
-p = print
+pr = print
