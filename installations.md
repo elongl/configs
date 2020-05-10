@@ -13,8 +13,11 @@
 
 
 ## Python Modules
-- IPython
-- Pwntools
+- General
+	- IPython
+- CTF
+	- IPython
+	- Pwntools
 
 
 ## VSCode Extensions
