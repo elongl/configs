@@ -21,7 +21,7 @@
 
 
 ## VSCode Extensions
-- Python
+- Languages
 - GitLens
 
 
