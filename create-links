@@ -15,8 +15,3 @@ echo "Linked i3 config."
 ln -s $(pwd)/i3status ~/.config/i3status/config
 echo "Linked i3status config."
 
-ln -s $(pwd)/gtk3 ~/.config/gtk-3.0/settings.ini
-echo "Linked GTK config."
-
-ln -s $(pwd)/ipython ~/.ipython/profile_default/startup
-echo "Linked IPython startup scripts."
