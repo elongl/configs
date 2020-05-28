@@ -23,6 +23,7 @@
 ## VSCode Extensions
 - Languages
 - GitLens
+- Vim
 
 
 ## Chrome Extensions
@@ -44,3 +45,4 @@
 - Feh (Wallpapers)
 - Scrot (Screenshots)
 - i3lock-fancy
+
