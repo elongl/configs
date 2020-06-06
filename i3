@@ -183,4 +183,5 @@ bar {
         status_command i3status
 }
 exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
-exec "compton"
+exec "xinput set-prop 14 349 1"
+exec "xinput set-prop 14 333 1"
