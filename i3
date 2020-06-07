@@ -182,6 +182,12 @@ bindsym $mod+shift+x exec "i3lock-fancy"
 bar {
         status_command i3status
 }
+
+# Hebrew keyboard layout
 exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
+
+## Touchpad
+# Tapping
 exec "xinput set-prop 14 349 1"
+# Natural Scrolling
 exec "xinput set-prop 14 333 1"
