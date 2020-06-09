@@ -11,4 +11,3 @@ source $ZSH/oh-my-zsh.sh
 alias dump="objdump -d -M intel"
 alias copy="xclip -selection clipboard"
 alias open='xdg-open'
-alias control='gnome-control-center'
