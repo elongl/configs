@@ -188,6 +188,9 @@ exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
 
 ## Touchpad
 # Tapping
-exec "xinput set-prop 14 349 1"
+exec --no-startup-id "xinput set-prop 14 349 1"
 # Natural Scrolling
-exec "xinput set-prop 14 333 1"
+exec --no-startup-id "xinput set-prop 14 333 1"
+
+# Night Light
+exec --no-startup-id "redshift"
