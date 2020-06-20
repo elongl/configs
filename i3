@@ -193,4 +193,4 @@ exec --no-startup-id "xinput set-prop 14 349 1"
 exec --no-startup-id "xinput set-prop 14 333 1"
 
 # Night Light
-exec --no-startup-id "redshift"
+exec --no-startup-id "redshift -t 6500:3500"
