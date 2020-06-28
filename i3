@@ -186,11 +186,13 @@ bar {
 # Hebrew keyboard layout
 exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
 
-## Touchpad
+## Mouse & Touchpad
 # Tapping
 exec --no-startup-id "xinput set-prop 14 349 1"
+exec --no-startup-id "xinput set-prop 12 349 1"
 # Natural Scrolling
 exec --no-startup-id "xinput set-prop 14 333 1"
+exec --no-startup-id "xinput set-prop 12 333 1"
 
 # Night Light
 exec --no-startup-id "redshift -t 6500:3500"
