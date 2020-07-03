@@ -184,13 +184,12 @@ bar {
 }
 
 # Hebrew keyboard layout
-exec "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
+exec --no-startup-id "setxkbmap -layout us,il -option 'grp:win_space_toggle'"
 
-## Touchpad
-# Tapping
-exec --no-startup-id "xinput set-prop 14 349 1"
-# Natural Scrolling
-exec --no-startup-id "xinput set-prop 14 333 1"
+# Mouse configuration
+exec --no-startup-id "xinput set-prop 'ELAN1300:00 04F3:3057 Touchpad' 'libinput Natural Scrolling Enabled' 1"
+exec --no-startup-id "xinput set-prop 'ELAN1300:00 04F3:3057 Touchpad' 'libinput Tapping Enabled' 1"
+exec --no-startup-id "xinput set-prop 'Elon Gliksberg’s Mouse' 'libinput Natural Scrolling Enabled' 1"
 
 # Night Light
-exec --no-startup-id "redshift -t 6500:3500"
+exec --no-startup-id "redshift -t 6500:3000"
