@@ -18,3 +18,6 @@ echo "Linked i3status config."
 ln -s $(pwd)/gtk3 ~/.config/gtk-3.0/settings.ini	
 echo "Linked GTK config."
 
+ln -s $(pwd)/dunstrc ~/.config/dunst/dunstrc
+echo "Linked dunst config."
+
