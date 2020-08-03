@@ -25,3 +25,4 @@ bind kp_uparrow "buy ssg08";
 bind kp_pgup "buy p90";
 
 bind f3 "r_cleardecals";
+bind h "use weapon_c4; drop";
