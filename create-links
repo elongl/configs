@@ -1,20 +1,23 @@
-#!/bin/sh
+#!/bin/bash
 
 ln -s $(pwd)/gdbinit ~/.gdbinit
-echo "Linked GDB config."
+echo "Linked GDB."
 
 ln -s $(pwd)/zshrc ~/.zshrc
-echo "Linked Zsh config."
+echo "Linked Zsh."
 
 ln -s $(pwd)/vim ~/.config/nvim/init.vim
-echo "Linked Vim config."
+echo "Linked Vim."
 
 ln -s $(pwd)/i3 ~/.config/i3/config
-echo "Linked i3 config."
+echo "Linked i3."
 
 ln -s $(pwd)/i3status ~/.config/i3status/config
-echo "Linked i3status config."
+echo "Linked i3status."
 
 ln -s $(pwd)/dunstrc ~/.config/dunst/dunstrc
-echo "Linked dunst config."
+echo "Linked dunst."
+
+ln -s $(pwd)/pulseaudio ~/.config/pulse/default.pa
+echo "Linked pulseaudio."
 
