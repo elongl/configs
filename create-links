@@ -15,3 +15,7 @@ echo "Linked pulseaudio."
 ln -s $(pwd)/tmux ~/.tmux.conf
 echo "Linked TMUX."
 
+rm -rf ~/.ipython/profile_default/startup
+ln -s $(pwd)/ipython ~/.ipython/profile_default/startup
+echo "Linked IPython startup scripts."
+
