@@ -1,4 +1,5 @@
 ## Programs
+- iTerm
 - Tmux
 - Nvim
 - VSCode
@@ -30,4 +31,4 @@
 
 ## Notes
 - Make terminal partially transparent.
-
+- Use _Natural Text Editing_ keys preset.
