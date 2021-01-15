@@ -13,7 +13,6 @@
 - General
 	- IPython
 - CTF
-	- IPython
 	- Pwntools
 
 
@@ -31,4 +30,4 @@
 
 ## Notes
 - Make terminal partially transparent.
-- Use _Natural Text Editing_ keys preset.
+

@@ -1,3 +1,6 @@
 # Disable Press & Hold
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# Install
+- Rectangle
+
