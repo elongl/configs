@@ -9,9 +9,6 @@ echo "Linked Zsh."
 ln -s $(pwd)/vim ~/.config/nvim/init.vim
 echo "Linked Nvim."
 
-ln -s $(pwd)/pulseaudio ~/.config/pulse/default.pa
-echo "Linked pulseaudio."
-
 ln -s $(pwd)/tmux ~/.tmux.conf
 echo "Linked TMUX."
 

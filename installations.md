@@ -3,7 +3,7 @@
 - Tmux
 - Nvim
 - VSCode
-- VirtualBox
+- VirtualBox | Docker | QEMU
 - Chrome
 - zsh & oh-my-zsh
 - Discord
