@@ -4,3 +4,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Install
 - Rectangle
 
+
+# iTerm
+- Preferences --> Profiles --> Keys --> Presets --> Natural Text Editing
+
