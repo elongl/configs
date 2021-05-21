@@ -1,15 +1,15 @@
 #!/bin/bash
 
-ln -s $(pwd)/gdbinit ~/.gdbinit
+ln -sf $(pwd)/gdbinit ~/.gdbinit
 echo "Linked GDB."
 
-ln -s $(pwd)/zshrc ~/.zshrc
+ln -sf $(pwd)/zshrc ~/.zshrc
 echo "Linked Zsh."
 
-ln -s $(pwd)/vim ~/.config/nvim/init.vim
+ln -sf $(pwd)/vim ~/.config/nvim/init.vim
 echo "Linked Nvim."
 
-ln -s $(pwd)/tmux ~/.tmux.conf
+ln -sf $(pwd)/tmux ~/.tmux.conf
 echo "Linked TMUX."
 
 rm -rf ~/.ipython/profile_default/startup
