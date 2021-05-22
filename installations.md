@@ -1,5 +1,4 @@
 ## Programs
-- iTerm
 - Tmux
 - Nvim
 - VSCode
@@ -7,6 +6,7 @@
 - Chrome
 - zsh & oh-my-zsh
 - Discord
+- Transmission
 
 
 ## Python Modules
