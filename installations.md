@@ -27,7 +27,3 @@
 - Dark Reader
 - Adblock
 
-
-## Notes
-- Make terminal partially transparent.
-
