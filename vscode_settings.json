@@ -10,5 +10,8 @@
     "python.formatting.autopep8Args": [
         "--max-line-length=120"
     ],
-    "python.pythonPath": "/Users/elon/work/cyber/linksys-wrt54g/exploit-venv/bin/python"
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+    },
+    "editor.formatOnSave": true,
 }
