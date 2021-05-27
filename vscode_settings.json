@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Kimbie Dark",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "files.autoSave": "onFocusChange",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "python.pythonPath": "/Users/elon/work/cyber/linksys-wrt54g/exploit-venv/bin/python"
+}
