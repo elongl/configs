@@ -1,6 +1,8 @@
 # Disable Press & Hold
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# Enable Tap To Click
+
 # Install
 - Rectangle
 
