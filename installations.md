@@ -7,6 +7,7 @@
 - zsh & oh-my-zsh
 - Discord
 - Transmission
+- ngrok
 
 
 ## Python Modules
