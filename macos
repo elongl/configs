@@ -2,6 +2,11 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Enable Tap To Click
+# Mouse --> Tap to click
+
+# Enable Keyboard Navigation
+# Keyboard --> Shortcuts --> Use keyboard navigation
+
 
 # Install
 - Rectangle
