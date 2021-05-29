@@ -7,6 +7,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Enable Keyboard Navigation
 # Keyboard --> Shortcuts --> Use keyboard navigation
 
+# Enable Trackpad Dragging
+# Accessibility --> Pointer Control --> Trackpad Options --> Enable dragging
+
 
 # Install
 - Rectangle
