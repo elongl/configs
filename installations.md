@@ -21,6 +21,7 @@
 - Languages
 - GitLens
 - Vim
+- GitHub Copilot
 
 
 ## Chrome Extensions

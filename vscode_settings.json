@@ -13,4 +13,10 @@
     "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": true,
     "C_Cpp.dimInactiveRegions": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
