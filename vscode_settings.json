@@ -8,7 +8,7 @@
         "--max-line-length=120"
     ],
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
+        "source.organizeImports": true
     },
     "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": true,
@@ -19,4 +19,9 @@
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.autoReveal": false
 }
