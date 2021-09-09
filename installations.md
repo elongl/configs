@@ -17,13 +17,6 @@
 	- Pwntools
 
 
-## VSCode Extensions
-- Languages
-- GitLens
-- Vim
-- GitHub Copilot
-
-
 ## Chrome Extensions
 - Vimium
 - Dark Reader

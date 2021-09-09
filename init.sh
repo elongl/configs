@@ -18,6 +18,9 @@ echo "Linked TMUX."
 ln -sf $(pwd)/vscode_settings.json ~/Library/Application\ Support/Code/User/settings.json
 echo "Linked VSCode settings."
 
+cat vscode_extensions | xargs -L1 code --install-extension
+echo "Installed VSCode extensions."
+
 rm -rf ~/.ipython/profile_default/startup
 ln -sf $(pwd)/ipython ~/.ipython/profile_default/startup
 echo "Linked IPython startup scripts."
