@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
@@ -31,5 +31,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme"
 }
