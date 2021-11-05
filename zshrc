@@ -7,6 +7,5 @@ export VISUAL=vim
 
 source $ZSH/oh-my-zsh.sh
 
-alias dump="objdump -d -M intel"
 alias vim="nvim"
 
