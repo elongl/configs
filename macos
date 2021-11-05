@@ -5,9 +5,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Keyboard --> Key Repeat --> Fastest
 # Keyboard --> Delay Until Repeat --> Shortest
 
-# Enable Tap To Click
-# Mouse --> Tap to click
-
 # Enable Keyboard Navigation
 # Keyboard --> Shortcuts --> Use keyboard navigation
 
