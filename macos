@@ -8,9 +8,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Enable Keyboard Navigation
 # Keyboard --> Shortcuts --> Use keyboard navigation
 
-# Enable Trackpad Dragging
-# Accessibility --> Pointer Control --> Trackpad Options --> Enable dragging
-
+# Terminal
+# Profiles --> Keyboard --> Use option as meta key
 
 # Install
 - Rectangle
