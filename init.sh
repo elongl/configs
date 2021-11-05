@@ -9,6 +9,7 @@ echo "Linked GDB."
 ln -sf $(pwd)/zshrc ~/.zshrc
 echo "Linked Zsh."
 
+mkdir -p ~/.config/nvim
 ln -sf $(pwd)/vim ~/.config/nvim/init.vim
 echo "Linked Nvim."
 
@@ -22,6 +23,7 @@ cat vscode_extensions | xargs -L1 code --install-extension
 echo "Installed VSCode extensions."
 
 rm -rf ~/.ipython/profile_default/startup
+mkdir -p ~/.ipython/profile_default
 ln -sf $(pwd)/ipython ~/.ipython/profile_default/startup
 echo "Linked IPython startup scripts."
 
