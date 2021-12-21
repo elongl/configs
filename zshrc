@@ -1,4 +1,4 @@
-ZSH_THEME="robbyrussell"
+ZSH_THEME="cloud"
 plugins=(git z)
 
 export PATH=$PATH:$HOME/bin
