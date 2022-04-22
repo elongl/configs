@@ -1,13 +1,13 @@
 ## Programs
 - Tmux
-- Nvim
+- Neovim
 - VSCode
 - VirtualBox | Docker | QEMU
 - Chrome
 - zsh & oh-my-zsh
 - Discord
-- Transmission
 - ngrok
+- Motrix
 
 
 ## Python Modules
