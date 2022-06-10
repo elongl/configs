@@ -11,9 +11,6 @@ set -g history-limit 10000
 setw -g mode-keys vi
 setw -g monitor-activity on
 
-bind-key v split-window -h
-bind-key s split-window -v
-
 bind-key J resize-pane -D 5
 bind-key K resize-pane -U 5
 bind-key H resize-pane -L 5
