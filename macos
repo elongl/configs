@@ -1,3 +1,6 @@
+# Disable Press & Hold
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # Keyboard Key Repeat
 # Keyboard --> Key Repeat --> Fastest
 # Keyboard --> Delay Until Repeat --> Shortest
