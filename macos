@@ -7,6 +7,9 @@
 
 # Terminal
 # Profiles --> Keyboard --> Use option as meta key
+#
+# Disable Smart Quotes
+# System Preferences -> Keyboard -> Text -> Uncheck use smart quotes
 
 # Install
 - Rectangle
