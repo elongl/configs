@@ -10,9 +10,12 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Terminal
 # Profiles --> Keyboard --> Use option as meta key
-#
+
 # Disable Smart Quotes
 # System Preferences -> Keyboard -> Text -> Uncheck use smart quotes
+
+# Bluetooth
+# System Preferences -> Bluetooth -> Show Bluetooth in menu bar
 
 # Install
 - Rectangle
