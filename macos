@@ -17,6 +17,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Bluetooth
 # System Preferences -> Bluetooth -> Show Bluetooth in menu bar
 
+# Don't show recent applications
+# System Preferences -> Dock & Menu Bar -> Uncheck show recent applications in Dock
+
 # Install
 - Rectangle
 
