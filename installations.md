@@ -8,6 +8,7 @@
 - Discord
 - ngrok
 - Motrix
+- Notable
 
 
 ## Python Modules
