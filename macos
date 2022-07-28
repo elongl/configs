@@ -2,14 +2,14 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Keyboard Key Repeat
-# Keyboard --> Key Repeat --> Fastest
-# Keyboard --> Delay Until Repeat --> Shortest
+# Keyboard -> Key Repeat -> Fastest
+# Keyboard -> Delay Until Repeat -> Shortest
 
 # Enable Keyboard Navigation
-# Keyboard --> Shortcuts --> Use keyboard navigation
+# Keyboard -> Shortcuts -> Use keyboard navigation
 
 # Terminal
-# Profiles --> Keyboard --> Use option as meta key
+# Profiles -> Keyboard -> Use option as meta key
 
 # Disable Smart Quotes
 # System Preferences -> Keyboard -> Text -> Uncheck use smart quotes
@@ -19,6 +19,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Don't show recent applications
 # System Preferences -> Dock & Menu Bar -> Uncheck show recent applications in Dock
+
+# Disable broken auto display management
+# System Preferences -> Mission control -> Uncheck all 4 checkboxes
 
 # Install
 - Rectangle
