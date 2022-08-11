@@ -24,7 +24,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # System Preferences -> Mission control -> Uncheck all 4 checkboxes
 
 # Disable True Tone (Makes external monitors yellow)
-# System Preferences -> Display settings --> Uncheck true tone on MacBook's monitor
+# System Preferences -> Display settings -> Uncheck true tone on MacBook's monitor
 
 # Install
 - Rectangle
