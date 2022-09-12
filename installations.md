@@ -1,17 +1,16 @@
 ## Programs
-- Tmux
+
+- Tmux & tpm (Tmux Plugin Manager)
 - Neovim
 - VSCode
 - VirtualBox | Docker | QEMU
 - Chrome
 - zsh & oh-my-zsh
-- Discord
-- ngrok
 - Motrix
-- Notable
 
 
 ## Python Modules
+
 - General
 	- IPython
 - CTF
@@ -19,6 +18,7 @@
 
 
 ## Chrome Extensions
+
 - Vimium
 - Dark Reader
 - Adblock
