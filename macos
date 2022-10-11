@@ -8,6 +8,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Enable Keyboard Navigation
 # Keyboard -> Shortcuts -> Use keyboard navigation
 
+# Add Do Not Disturb shortcut
+# Keyboard -> Shortcuts - > Mission Control - Do Not Disturb -> ⌃⌥⌘D
+
 # Terminal
 # Profiles -> Keyboard -> Use option as meta key
 
