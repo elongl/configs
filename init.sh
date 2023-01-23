@@ -6,6 +6,7 @@ echo "Created $USER\'s bin directory."
 ln -sf $PWD/gdbinit ~/.gdbinit
 echo "Linked GDB."
 
+
 ln -sf $PWD/zshrc ~/.zshrc
 echo "Linked Zsh."
 
@@ -15,6 +16,9 @@ echo "Linked Nvim."
 
 ln -sf $PWD/tmux ~/.tmux.conf
 echo "Linked TMUX."
+
+ln -sf $PWD/gitconfig ~/.gitconfig
+echo "Linked Git config."
 
 rm -rf ~/.ipython/profile_default/startup
 mkdir -p ~/.ipython/profile_default

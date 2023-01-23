@@ -1,0 +1,10 @@
+[user]
+name = Elon Gliksberg
+email = elongliks@gmail.com
+
+[init]
+defaultBranch = main
+
+[push]
+autoSetupRemote = true
+
