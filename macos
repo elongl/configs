@@ -24,7 +24,10 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # System Preferences -> Dock & Menu Bar -> Uncheck show recent applications in Dock
 
 # Disable broken auto display management
-# System Preferences -> Mission control -> Uncheck all 4 checkboxes
+# System Preferences -> Mission control -> Uncheck:
+# - Automatically rearrange Spaces based on most recent use
+# - When switching to an application, switch to a Space with open windows for the application
+# - Group windows by application
 
 # Disable True Tone (Makes external monitors yellow)
 # System Preferences -> Display settings -> Uncheck true tone on MacBook's monitor
