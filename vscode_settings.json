@@ -28,7 +28,7 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "files.associations": {
-    "*.sql": "jinja",
+    "*.sql": "jinja-sql",
     "*.mdx": "markdown"
   },
   "python.linting.flake8Args": ["--ignore", "W503,E203,E501"],
