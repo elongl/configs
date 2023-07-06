@@ -51,6 +51,15 @@
     {
       "before": ["g", "r"],
       "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": [
+        "editor.action.revealDefinition",
+        "workbench.action.navigateBack",
+        "workbench.action.closeActiveEditor"
+      ]
     }
-  ]
+  ],
+  "workbench.iconTheme": "vscode-icons"
 }
