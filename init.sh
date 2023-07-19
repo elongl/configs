@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p ~/bin
-echo "Created $USER\'s bin directory."
+ln -sf $PWD/bin ~/bin
+echo "Linked bin directory."
 
 ln -sf $PWD/gdbinit ~/.gdbinit
 echo "Linked GDB."
