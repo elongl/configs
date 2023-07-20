@@ -46,7 +46,7 @@ def generate_session_token(mfa_device: str, token_code: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Generate AWS session token and store it in a new AWS profile."
+        description="Generate AWS session token from the 'personal' profile and store it in 'default' AWS profile."
     )
     parser.add_argument(
         "mfa_device", type=str, help="Identification number of the MFA device"
