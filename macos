@@ -8,8 +8,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Enable Keyboard Navigation
 # Keyboard -> Shortcuts -> Use keyboard navigation
 
-# Add Do Not Disturb shortcut
+# Do Not Disturb
 # Keyboard -> Shortcuts - > Mission Control - Do Not Disturb -> ⌃⌥⌘D
+# Define 10:00 -> 17:00 schedule
 
 # Terminal
 # Profiles -> Keyboard -> Use option as meta key
