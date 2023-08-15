@@ -1,7 +1,5 @@
 {
   "files.autoSave": "onFocusChange",
-  "python.linting.enabled": true,
-  "python.linting.flake8Enabled": true,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "[typescriptreact]": {
