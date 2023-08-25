@@ -3,6 +3,7 @@
 import argparse
 import configparser
 from pathlib import Path
+from botocore.exceptions import ProfileNotFound
 
 import boto3
 
@@ -13,7 +14,15 @@ AWS_CONFIG_PATH = Path.home() / ".aws" / "credentials"
 
 
 def generate_session_token(mfa_device: str, token_code: str):
-    session = boto3.Session(profile_name=PERSISTENT_PERSONAL_PROFILE_NAME)
+    try:
+        session = boto3.Session(profile_name=PERSISTENT_PERSONAL_PROFILE_NAME)
+    except ProfileNotFound:
+        print(
+            f"Profile '{PERSISTENT_PERSONAL_PROFILE_NAME}' not found. Please create it first with your user's credentials. "
+            "See https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html for more details."
+        )
+        return
+
     sts_client = session.client("sts")
 
     response = sts_client.get_caller_identity()
