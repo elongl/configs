@@ -8,18 +8,20 @@
 - zsh & oh-my-zsh
 - Motrix
 
+## macOS
+
+- Rectangle
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 
 ## Python Modules
 
 - General
-	- IPython
+  - IPython
 - CTF
-	- Pwntools
-
+  - Pwntools
 
 ## Chrome Extensions
 
 - Vimium
 - Dark Reader
 - Adblock
-
