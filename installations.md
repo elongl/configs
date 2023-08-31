@@ -25,3 +25,5 @@
 - Vimium
 - Dark Reader
 - Adblock
+- Loom
+
