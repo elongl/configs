@@ -7,6 +7,7 @@
 - Chrome
 - zsh & oh-my-zsh
 - Motrix
+- Loom
 
 ## macOS
 
@@ -25,5 +26,4 @@
 - Vimium
 - Dark Reader
 - Adblock
-- Loom
 
