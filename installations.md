@@ -13,6 +13,7 @@
 
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
+- [Flycut](https://github.com/TermiT/Flycut)
 
 ## Python Modules
 
