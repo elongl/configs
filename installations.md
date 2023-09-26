@@ -7,7 +7,7 @@
 - Chrome
 - zsh & oh-my-zsh
 - Motrix
-- Loom
+- OBS Studio
 
 ## macOS
 
