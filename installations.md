@@ -8,6 +8,7 @@
 - zsh & oh-my-zsh
 - Motrix
 - OBS Studio
+- VLC Media Player
 
 ## macOS
 
