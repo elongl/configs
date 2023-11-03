@@ -9,6 +9,7 @@
 - Motrix
 - OBS Studio
 - VLC Media Player
+- Wireshark
 
 ## macOS
 
