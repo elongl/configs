@@ -10,6 +10,7 @@
 - OBS Studio
 - VLC Media Player
 - Wireshark
+- Tor
 
 ## macOS
 
