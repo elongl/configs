@@ -3,6 +3,7 @@
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
 - VSCode
+- DBeaver
 - VirtualBox | Docker | QEMU
 - Chrome
 - zsh & oh-my-zsh
