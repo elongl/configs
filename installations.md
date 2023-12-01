@@ -17,7 +17,8 @@
 
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
-- [Flycut](https://github.com/TermiT/Flycut)
+- [Maccy](https://github.com/p0deje/Maccy)
+  - Enable "Paste automatically" in Preferences.
 
 ## Python Modules
 
