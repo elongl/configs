@@ -20,6 +20,7 @@
 - [Maccy](https://github.com/p0deje/Maccy)
   - Change hotkey to "⌘⇧V".
   - Enable "Paste automatically" in Preferences.
+- Wine
 
 ## Python Modules
 
