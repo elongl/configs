@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p ~/apps
+
 ln -sf $PWD/bin ~/bin
 echo "Linked bin directory."
 
