@@ -1,7 +1,7 @@
 ZSH_THEME="cloud"
 plugins=(git z)
 
-export PATH=$HOME/bin:$PATH:/opt/homebrew/bin
+export PATH=$HOME/bin:/opt/homebrew/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export VISUAL=vim
 
