@@ -9,6 +9,32 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim=nvim
 
+venv() {
+  local venv_path="$1"
+
+  if [[ -z "$venv_path" ]]; then
+    echo "Error: Please provide the path to the virtual environment."
+    return
+  fi
+
+  source "$venv_path/bin/activate"
+
+  if [[ -n "$TMUX" ]]; then
+    tmux set-environment VIRTUAL_ENV "$VIRTUAL_ENV"
+  fi
+}
+
+devenv() {
+  deactivate
+
+  if [[ -n "$TMUX" ]]; then
+    tmux set-environment -u VIRTUAL_ENV
+  fi
+}
+
+if [ -n "$VIRTUAL_ENV" ]; then
+    source $VIRTUAL_ENV/bin/activate
+fi
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/egk/apps/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/egk/apps/google-cloud-sdk/path.zsh.inc'; fi
