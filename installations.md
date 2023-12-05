@@ -20,7 +20,9 @@
 - [Maccy](https://github.com/p0deje/Maccy)
   - Change hotkey to "⌘⇧V".
   - Enable "Paste automatically" in Preferences.
-- Wine
+- [AltTab](https://github.com/lwouis/alt-tab-macos)
+  - Change hotkey to "⌘⇥".
+  - Enable Vim key bindings.
 
 ## Python Modules
 
