@@ -23,6 +23,7 @@
 - [AltTab](https://github.com/lwouis/alt-tab-macos)
   - Change hotkey to "⌘⇥".
   - Enable Vim key bindings.
+  - Change "Show on" to "Screen including mouse".
 
 ## Python Modules
 
