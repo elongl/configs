@@ -5,7 +5,7 @@ bind z "slot8";
 bind x "slot7";
 bind c "slot6";
 bind v "slot10";
-bind h "slot5; drop";
+bind b "slot5; drop";
 
 bind capslock "noclip";
 bind f1 "mp_restartgame 1";
