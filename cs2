@@ -1,3 +1,5 @@
+viewmodel_presetpos 3;
+
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
 
