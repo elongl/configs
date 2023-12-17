@@ -1,50 +1,48 @@
 {
-  "files.autoSave": "onFocusChange",
-  "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "explorer.confirmDelete": false,
-  "[javascript]": {
+  "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.startupEditor": "none",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.associations": {
-    "*.sql": "jinja-sql",
-    "*.mdx": "markdown"
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "flake8.args": ["--ignore", "W503,E203,E501"],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[dockercompose]": {
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.mdx": "markdown",
+    "*.sql": "jinja-sql"
+  },
+  "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/__pycache__": true
   },
+  "flake8.args": ["--ignore", "W503,E203,E501"],
+  "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": true,
-    "markdown": true
+    "*": true
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.normalModeKeyBindings": [
     {
       "before": ["g", "r"],
@@ -59,5 +57,14 @@
       ]
     }
   ],
-  "workbench.iconTheme": "vscode-icons"
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none",
+  "go.toolsManagement.autoUpdate": true,
+  "python.analysis.exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/dbt_packages"
+  ]
 }
+
