@@ -4,6 +4,7 @@
 - Neovim
 - VSCode
 - DBeaver
+  - Rebind tab switching to Ctrl + Tab.
 - VirtualBox | Docker | QEMU
 - Chrome
 - zsh & oh-my-zsh
