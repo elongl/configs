@@ -13,6 +13,7 @@
 - VLC Media Player
 - Wireshark
 - Tor
+- jq
 
 ## macOS
 
