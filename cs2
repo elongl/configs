@@ -1,5 +1,7 @@
 viewmodel_presetpos 3;
 
+cl_hud_color 8;
+
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
 
