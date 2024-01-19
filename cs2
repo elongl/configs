@@ -1,16 +1,26 @@
+## Viewmodel
+
 viewmodel_presetpos 3;
 
+## HUD
+
 cl_hud_color 8;
+cl_radar_scale 0;
+hud_scaling 255;
+
+## Crosshair
+
+CSGO-nSFGP-jJmtu-4LfjC-DQyzB-w88WB
+
+## Bindings
 
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
-
 bind z "slot8";
 bind x "slot7";
 bind c "slot6";
 bind v "slot10";
 bind h "slot5; drop";
-
 bind capslock "noclip";
 bind f1 "mp_restartgame 1";
 
