@@ -8,6 +8,7 @@ viewmodel_presetpos 3;
 
 ## HUD
 
+safezonex 0.9;
 cl_hud_color 8;
 cl_radar_scale 0;
 hud_scaling 255;
