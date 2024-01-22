@@ -35,6 +35,15 @@
 - CTF
   - Pwntools
 
+## VSCode Extensions
+
+- Vim
+- Copilot
+- GitLens
+- Dev Containers
+- Kubernetes
+- Languages & Formatters
+
 ## Chrome Extensions
 
 - Vimium
