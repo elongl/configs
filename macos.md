@@ -1,3 +1,7 @@
+## Mouse
+
+- Disable mouse acceleration.
+
 ## Keyboard
 
 - `defaults write -g ApplePressAndHoldEnabled -bool false`
