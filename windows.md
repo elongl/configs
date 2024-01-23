@@ -1,0 +1,4 @@
+## Mouse
+
+- Disable mouse acceleration.
+
