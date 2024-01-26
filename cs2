@@ -25,6 +25,8 @@ CSGO-R9fCz-rdMBF-4aBMo-vn32R-cfq3B
 
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
+bind mouse4 "+voicerecord";
+bind j "voice_modenable_toggle";
 bind z "slot8";
 bind x "slot7";
 bind c "slot6";
