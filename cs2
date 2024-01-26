@@ -32,4 +32,7 @@ bind v "slot10";
 bind h "slot5; drop";
 bind capslock "noclip";
 bind f1 "mp_restartgame 1";
+bind p "radio1";
+bind [ "radio2";
+bind ] "radio3";
 
