@@ -29,6 +29,10 @@
   - Change "Show on" to "Screen including mouse".
   - Check "Hide window thumbnails".
 
+### Windows
+
+- [Monitorian](https://github.com/emoacht/Monitorian)
+
 ### VSCode Extensions
 
 - Vim
