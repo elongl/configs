@@ -27,7 +27,6 @@
   - Change hotkey to "⌘⇥".
   - Enable Vim key bindings.
   - Change "Show on" to "Screen including mouse".
-  - Check "Hide window thumbnails".
 
 ### Windows
 
