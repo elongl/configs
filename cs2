@@ -32,7 +32,7 @@ bind x "slot7";
 bind c "slot6";
 bind v "slot10";
 bind h "slot5; drop";
-bind t "slot12";
+bind n "slot12";
 bind capslock "noclip";
 bind f1 "mp_restartgame 1";
 bind p "radio1";
