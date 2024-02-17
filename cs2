@@ -7,6 +7,7 @@ Settings Preset: High
 ## Viewmodel
 
 viewmodel_presetpos 3;
+cl_usenewbob 0;
 
 ## HUD
 
