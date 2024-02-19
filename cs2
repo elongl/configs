@@ -24,8 +24,17 @@ CSGO-R9fCz-rdMBF-4aBMo-vn32R-cfq3B
 
 ## Bindings
 
+alias "+dropbomb" "slot5";
+alias "-dropbomb" "drop";
+
+alias "+jumpaction" "+jump";
+alias "+throwaction" "-attack; -attack2";
+alias "-jumpaction" "-jump";
+
 bind mwheeldown "+jump";
 bind mwheelup "+jump";
+bind h "+dropbomb";
+bind alt "+jumpaction; +throwaction";
 bind mouse4 "+voicerecord";
 bind j "voice_modenable_toggle";
 bind z "slot8";
