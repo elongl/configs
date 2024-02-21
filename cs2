@@ -1,50 +1,49 @@
-## Video
+// Video
 
-Resolution: 1920x1080
-Brightness: 120%
-Settings Preset: High
+// Resolution: 1920x1080
+// Brightness: 120%
+// Settings Preset: High
 
-## Viewmodel
+// Viewmodel
 
-viewmodel_presetpos 3;
-cl_usenewbob 0;
+viewmodel_presetpos 3
+cl_usenewbob 0
 
-## HUD
+// HUD
 
-safezonex 0.85;
-cl_hud_color 8;
-cl_radar_scale 0;
-hud_scaling 255;
+safezonex 0.85
+cl_hud_color 8
+cl_radar_scale 0
+hud_scaling 255
+cl_teamcounter_playercount_instead_of_avatars 1
 
-Large Player Count -> Yes
 
-## Crosshair
+// Crosshair
 
-CSGO-R9fCz-rdMBF-4aBMo-vn32R-cfq3B
+// CSGO-R9fCz-rdMBF-4aBMo-vn32R-cfq3B
 
-## Bindings
+// Bindings
 
-alias "+dropbomb" "slot5";
-alias "-dropbomb" "drop";
+alias "+dropbomb" "slot5"
+alias "-dropbomb" "drop"
 
-alias "+jumpaction" "+jump";
-alias "+throwaction" "-attack; -attack2";
-alias "-jumpaction" "-jump";
+alias "+jumpaction" "+jump"
+alias "+throwaction" "-attack; -attack2"
+alias "-jumpaction" "-jump"
 
-bind mwheeldown "+jump";
-bind mwheelup "+jump";
-bind h "+dropbomb";
-bind alt "+jumpaction; +throwaction";
-bind mouse4 "+voicerecord";
-bind j "voice_modenable_toggle";
-bind z "slot8";
-bind x "slot7";
-bind c "slot6";
-bind v "slot10";
-bind n "slot12";
-bind capslock "noclip";
-bind f1 "mp_restartgame 1";
-bind p "radio1";
-bind [ "radio2";
-bind ] "radio3";
-
+bind mwheeldown "+jump"
+bind mwheelup "+jump"
+bind h "+dropbomb"
+bind alt "+jumpaction; +throwaction"
+bind mouse4 "+voicerecord"
+bind j "voice_modenable_toggle"
+bind z "slot8"
+bind x "slot7"
+bind c "slot6"
+bind v "slot10"
+bind n "slot12"
+bind capslock "noclip"
+bind f1 "mp_restartgame 1"
+bind p "radio1"
+bind [ "radio2"
+bind ] "radio3"
