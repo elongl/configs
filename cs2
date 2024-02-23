@@ -11,7 +11,7 @@ cl_usenewbob 0
 
 // HUD
 
-safezonex 0.85
+safezonex 0.8
 cl_hud_color 8
 cl_radar_scale 0
 hud_scaling 255
