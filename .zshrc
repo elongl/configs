@@ -8,6 +8,7 @@ export VISUAL=vim
 source $ZSH/oh-my-zsh.sh
 
 alias vim=nvim
+alias fin="say Finished"
 
 venv() {
   local venv_path="$1"
