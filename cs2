@@ -1,8 +1,9 @@
 // Video
 
 // Resolution: 1920x1080
-// Brightness: 120%
 // Settings Preset: High
+
+r_fullscreen_gamma 1.5
 
 // Viewmodel
 
