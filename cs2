@@ -7,8 +7,7 @@ r_fullscreen_gamma 1.5
 
 // Viewmodel
 
-viewmodel_presetpos 3
-cl_usenewbob 0
+viewmodel_presetpos 2
 
 // HUD
 
