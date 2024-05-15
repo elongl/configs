@@ -23,13 +23,6 @@
 - [Maccy](https://github.com/p0deje/Maccy)
   - Change hotkey to "⌘⇧V".
   - Enable "Paste automatically" in Preferences.
-- [AltTab](https://github.com/lwouis/alt-tab-macos)
-  - Show windows only from visible spaces.
-  - Change app switcher hotkey to "⌘⇥".
-  - Change window switcher hotkey to "⌘`".
-  - Change hotkey to "⌘⇥".
-  - Enable Vim key bindings.
-  - Change "Show on" to "Screen including mouse".
 
 ### Windows
 
