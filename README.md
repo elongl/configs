@@ -79,9 +79,6 @@
 #### Desktop & Dock
 
 - Don't show recent applications
-- Mission Control
-  - Check Group windows by application.
-  - Check Displays have separate Spaces.
 
 #### Displays
 
