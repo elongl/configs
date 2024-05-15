@@ -80,6 +80,11 @@
 #### Desktop & Dock
 
 - Don't show recent applications
+- Mission Control
+  - Uncheck automatically rearrange spaces based on most recent use
+  - Check when switching to an application, switch to a Space with open windows
+  - Uncheck group windows by application.
+  - Uncheck displays have separate Spaces.
 
 #### Displays
 
