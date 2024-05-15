@@ -24,6 +24,7 @@
   - Change hotkey to "⌘⇧V".
   - Enable "Paste automatically" in Preferences.
 - [AltTab](https://github.com/lwouis/alt-tab-macos)
+  - Show windows only from visible spaces.
   - Change app switcher hotkey to "⌘⇥".
   - Change window switcher hotkey to "⌘`".
   - Change hotkey to "⌘⇥".
