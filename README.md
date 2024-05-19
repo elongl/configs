@@ -5,6 +5,8 @@
 - Neovim
 - Chrome
 - VSCode
+- Obsidian
+  - Bind "Show file explorer" to "⌘⇧E".
 - Docker & VirtualBox
 - Python & IPython
 - Motrix
