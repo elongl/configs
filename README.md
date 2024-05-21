@@ -6,7 +6,7 @@
 - Chrome
 - VSCode
 - Obsidian
-  - Bind "Show file explorer" to "⌘⇧E".
+  - Copy `.obsidian` to vault.
 - Docker & VirtualBox
 - Python & IPython
 - Motrix
