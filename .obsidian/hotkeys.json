@@ -1,13 +1,4 @@
 {
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "command-palette:open": [
     {
       "modifiers": [
@@ -23,6 +14,15 @@
         "Mod"
       ],
       "key": "P"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
     }
   ]
 }
