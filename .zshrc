@@ -1,11 +1,11 @@
+ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
 plugins=(git z)
-
-export PATH=$HOME/bin:/opt/homebrew/bin:$PATH
-export ZSH=$HOME/.oh-my-zsh
-export VISUAL=vim
-
 source $ZSH/oh-my-zsh.sh
+
+PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
+PATH=$HOME/bin:/opt/homebrew/bin:$PATH
+VISUAL=vim
 
 alias vim=nvim
 alias fin="say Finished"
@@ -46,4 +46,5 @@ if [ -f '/Users/egk/apps/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/
 
 alias k=kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
 
