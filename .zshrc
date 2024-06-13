@@ -7,8 +7,10 @@ PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
 PATH=$HOME/bin:/opt/homebrew/bin:$PATH
 VISUAL=vim
 
-alias vim=nvim
+alias vim="nvim"
+alias k="kubectl"
 alias fin="say Finished"
+alias grstp="grst --patch"
 
 venv() {
   local venv_path="$1"
@@ -44,7 +46,5 @@ if [ -f '/Users/egk/apps/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/egk/ap
 if [ -f '/Users/egk/apps/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/egk/apps/google-cloud-sdk/completion.zsh.inc'; fi
 
 
-alias k=kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
-
 
