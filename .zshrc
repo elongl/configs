@@ -10,7 +10,9 @@ VISUAL=vim
 alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"
+alias gstap="gsta --patch"
 alias grstp="grst --patch"
+alias gcop="gco --patch"
 
 venv() {
   local venv_path="$1"
