@@ -58,9 +58,9 @@
 - Key Repeat -> Fastest
 - Delay Until Repeat -> Shortest
 - Shortcuts -> Use keyboard navigation
-- Press (globe) key to --> Do Nothing
-- Dictation shortcut --> Press Right Command Key Twice
-- Shortcuts - > Mission Control - Do Not Disturb -> ⌃⌥⌘D
+- Press (globe) key to -> Do Nothing
+- Dictation shortcut -> Press Right Command Key Twice
+- Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
 - Text -> Uncheck use smart quotes
 
 #### Terminal
