@@ -10,10 +10,6 @@
 - Motrix
 - OBS Studio
 - VLC Media Player
-- DBeaver
-  - Enable auto-save after modifications and on close.
-  - Rebind tab switching to Ctrl + Tab.
-  - Cancel transactions end notification.
 
 ### macOS
 
@@ -33,8 +29,9 @@
 - Copilot
 - GitLens
 - Dev Containers
-- Kubernetes
+- Docker & Kubernetes
 - Languages & Formatters
+- SQLTools (DB Client)
 
 ### Chrome Extensions
 
