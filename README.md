@@ -10,7 +10,6 @@
 - Motrix
 - OBS Studio
 - VLC Media Player
-- Wireshark
 - DBeaver
   - Enable auto-save after modifications and on close.
   - Rebind tab switching to Ctrl + Tab.
