@@ -12,7 +12,6 @@ alias k="kubectl"
 alias fin="say Finished"
 
 # Git
-alias grbi="git rebase --interactive --autosquash"
 alias gstap="gsta --patch"
 alias grstp="grst --patch"
 alias gcop="gco --patch"
