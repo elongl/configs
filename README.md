@@ -18,7 +18,6 @@
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - [Maccy](https://github.com/p0deje/Maccy)
-  - Change hotkey to "⌘⇧V".
   - Enable "Paste automatically" in Preferences.
 
 ### Windows
