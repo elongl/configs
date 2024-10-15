@@ -12,6 +12,9 @@
 - Motrix
 - OBS Studio
 - VLC Media Player
+- DBeaver
+  - Enable auto-save after modifications and on close.
+  - Rebind tab switching to Ctrl + Tab.
 
 ### macOS
 
@@ -32,7 +35,6 @@
 - Dev Containers
 - Docker & Kubernetes
 - Languages & Formatters
-- SQLTools (DB Client)
 
 ### Chrome Extensions
 
