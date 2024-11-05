@@ -58,6 +58,7 @@
 - Press (globe) key to -> Do Nothing
 - Dictation shortcut -> Press Right Command Key Twice
 - Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
+- Shortcuts -> Mission Control - Switch to Desktop 1,2,3
 - Text -> Uncheck use smart quotes
 
 #### Terminal
