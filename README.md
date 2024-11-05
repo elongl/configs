@@ -77,7 +77,7 @@
   - Uncheck automatically rearrange spaces based on most recent use
   - Check when switching to an application, switch to a Space with open windows
   - Uncheck group windows by application.
-  - Uncheck displays have separate Spaces.
+  - Check displays have separate Spaces.
 
 #### Displays
 
