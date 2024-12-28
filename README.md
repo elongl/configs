@@ -7,7 +7,9 @@
 - Neovim
 - Chrome
 - VSCode
-- Docker
+- Obsidian
+  - Copy `.obsidian` to vault.
+- Docker & VirtualBox
 - Python & IPython
 - Motrix
 - OBS Studio
