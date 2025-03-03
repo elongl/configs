@@ -74,6 +74,7 @@
 
 #### Desktop & Dock
 
+- Control Center -> Screen Mirroring -> Always Show in Menu Bar
 - Don't show recent applications
 - Mission Control
   - Uncheck automatically rearrange spaces based on most recent use
