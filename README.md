@@ -40,9 +40,10 @@
 - Docker & Kubernetes
 - Languages & Formatters
 
-### Chrome Extensions
+### Browser Extensions
 
 - Vimium
+- Bitwarden
 - Dark Reader
 - Adblock
 
