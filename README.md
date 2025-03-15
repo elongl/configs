@@ -6,7 +6,8 @@
 - zsh & oh-my-zsh
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
-- Chrome
+- Brave
+  - Turn off all "Show" settings on toolbar.
 - VSCode
 - Obsidian
   - Copy `.obsidian` to vault.
