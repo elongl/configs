@@ -8,6 +8,7 @@
 - Neovim
 - Brave
   - Turn off all "Show" settings on toolbar.
+  - Disable Leo in address bar.
 - VSCode
 - Obsidian
   - Copy `.obsidian` to vault.
