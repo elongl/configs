@@ -2,7 +2,6 @@
 
 ### General
 
-- AI Chatbot (ChatGPT)
 - zsh & oh-my-zsh
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
@@ -27,6 +26,7 @@
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - [Maccy](https://github.com/p0deje/Maccy)
   - Enable "Paste automatically" in Preferences.
+- [Homerow](https://www.homerow.app)
 
 ### Windows
 
@@ -71,12 +71,9 @@
 - Profiles -> Keyboard -> Use option as meta key
 - Opacity -> 75%, Blur -> 25%
 
-#### Bluetooth
-
-- Show Bluetooth in menu bar
-
 #### Desktop & Dock
 
+- Show Bluetooth in menu bar
 - Control Center -> Screen Mirroring -> Always Show in Menu Bar
 - Don't show recent applications
 - Mission Control
