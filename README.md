@@ -2,6 +2,7 @@
 
 ### General
 
+- Chatbot
 - zsh & oh-my-zsh
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
@@ -19,6 +20,7 @@
 - DBeaver
   - Enable auto-save after modifications and on close.
   - Rebind tab switching to Ctrl + Tab.
+- Lichess
 
 ### macOS
 
