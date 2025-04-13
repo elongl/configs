@@ -32,7 +32,7 @@
 
 ### Windows
 
-- [Monitorian](https://github.com/emoacht/Monitorian)
+- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 
 ### VSCode Extensions
 
