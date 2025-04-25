@@ -15,3 +15,5 @@ rebase = true
 autoStash = true
 autoSquash = true
 
+[core]
+editor = vim
