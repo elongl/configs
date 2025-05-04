@@ -33,6 +33,8 @@
 ### Windows
 
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
+- WSL
+  - Script `open` to run `explorer.exe`.
 
 ### VSCode Extensions
 
@@ -50,7 +52,7 @@
 - Dark Reader
 - Adblock
 
-## Settings
+## Setup & Settings
 
 - Disable mouse acceleration.
 - Use `init.sh` to auto-initialize the system.
