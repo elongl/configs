@@ -17,3 +17,4 @@ autoSquash = true
 
 [core]
 editor = vim
+autocrlf = true
