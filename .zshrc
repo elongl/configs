@@ -11,6 +11,7 @@ VISUAL=vim
 alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"
+alias copy="xclip -selection clipboard"
 
 # Git
 alias gstap="gsta --patch"
