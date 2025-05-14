@@ -8,6 +8,7 @@ echo "Linked bin directory."
 ln -sf $PWD/.gdbinit ~/.gdbinit
 echo "Linked GDB."
 
+touch ~/.local_zshrc
 ln -sf $PWD/.zshrc ~/.zshrc
 echo "Linked Zsh."
 

@@ -2,6 +2,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
 plugins=(git z)
 source $ZSH/oh-my-zsh.sh
+source $HOME/.local_zshrc
 
 PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
 PATH=$HOME/bin:/opt/homebrew/bin:$PATH
@@ -43,12 +44,6 @@ devenv() {
 if [ -n "$VIRTUAL_ENV" ]; then
     source $VIRTUAL_ENV/bin/activate
 fi
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/egk/apps/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/egk/apps/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/egk/apps/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/egk/apps/google-cloud-sdk/completion.zsh.inc'; fi
 
 
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
