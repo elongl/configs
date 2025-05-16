@@ -96,6 +96,7 @@
   },
   "security.allowedUNCHosts": ["wsl.localhost"],
   "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.autoImportCompletions": true,
   "swift.warnAboutSymlinkCreation": false,
   "git.ignoreMissingGitWarning": true,
   "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"]
