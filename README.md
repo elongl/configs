@@ -79,8 +79,10 @@
 #### Desktop & Dock
 
 - Automatically hide and show the Dock
-- Show Bluetooth in menu bar
-- Control Center -> Screen Mirroring -> Always Show in Menu Bar
+- Menu bar
+  - Bluetooth
+  - Screen Mirroring
+  - Sound
 - Don't show recent applications
 - Mission Control
   - Uncheck automatically rearrange spaces based on most recent use
