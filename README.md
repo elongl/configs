@@ -89,6 +89,8 @@
   - Check when switching to an application, switch to a Space with open windows
   - Uncheck group windows by application.
   - Check displays have separate Spaces.
+- Focus
+  - Share across devices -> Off
 
 #### Displays
 
