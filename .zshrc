@@ -11,7 +11,8 @@ VISUAL=vim
 alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"
-alias copy="xclip -selection clipboard"
+alias copy="xclip -selection clipboard -i"
+alias paste="xclip -selection clipboard -o"
 
 # Git
 alias gstap="gsta --patch"
@@ -48,4 +49,3 @@ fi
 
 
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
-
