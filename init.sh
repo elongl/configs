@@ -22,6 +22,9 @@ echo "Linked TMUX."
 ln -sf $PWD/.gitconfig ~/.gitconfig
 echo "Linked Git config."
 
+mkdir -p ~/.config/rofi
+ln -sf $PWD/rofi.rasi ~/.config/rofi/config.rasi
+
 rm -rf ~/.ipython/profile_default/startup
 mkdir -p ~/.ipython/profile_default
 ln -sf $PWD/ipython ~/.ipython/profile_default/startup
