@@ -20,6 +20,12 @@ alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
 
+run() {
+  nohup "$@" >/dev/null 2>&1 &
+  disown
+}
+
+
 venv() {
   local venv_path="$1"
 
