@@ -1,5 +1,7 @@
-@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
-configuration {
-  font: "Monospace 28";
-}
+@theme "/usr/share/rofi/themes/Monokai.rasi"
 
+configuration {
+  modes: "window,drun,run";
+  window-match-fields: "title,class";
+  window-format: "{c}   {t}";
+}
