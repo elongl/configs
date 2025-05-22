@@ -30,6 +30,12 @@
   - Enable "Paste automatically" in Preferences.
 - [Homerow](https://www.homerow.app)
 
+### Linux
+
+- Rofi
+  - Bind `Alt+S` to `rofi -show window -selected-row 1`.
+  - Bind `Alt+D` to `rofi -show combi -combi-modes "drun,run" -modes combi`.
+
 ### Windows
 
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
