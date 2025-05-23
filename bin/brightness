@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Check if the right number of arguments is provided
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 <DISPLAY_ID> <BRIGHTNESS_LEVEL (0-100)>"
+  exit 1
+fi
+
+DISPLAY_ID=$1
+BRIGHTNESS=$2
+
+# Set brightness using ddcutil
+ddcutil --display "$DISPLAY_ID" setvcp 10 "$BRIGHTNESS"
