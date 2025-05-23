@@ -101,3 +101,7 @@
 #### Displays
 
 - Disable True Tone
+
+### Linux
+
+- Increase default swap file size.
