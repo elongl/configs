@@ -4,4 +4,7 @@ configuration {
   modes: "window,drun,run";
   window-match-fields: "title,class";
   window-format: "{c}   {t}";
+  window {
+    close-on-delete: false;
+  }
 }
