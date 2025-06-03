@@ -51,6 +51,8 @@ devenv() {
 
 if [ -n "$VIRTUAL_ENV" ]; then
     source $VIRTUAL_ENV/bin/activate
+elif [ -d "$HOME/work/venvs/general" ]; then
+    venv "$HOME/work/venvs/general"
 fi
 
 
