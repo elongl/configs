@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # Check if the right number of arguments is provided
-if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 <DISPLAY_ID> <BRIGHTNESS_LEVEL (0-100)>"
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <BRIGHTNESS_LEVEL (0-100)>"
   exit 1
 fi
 
-DISPLAY_ID=$1
-BRIGHTNESS=$2
+BRIGHTNESS=$1
 
-# Set brightness using ddcutil
-ddcutil --display "$DISPLAY_ID" setvcp 10 "$BRIGHTNESS"
+# Set brightness on all detected displays using ddcutil
+ddcutil detect | grep -Eo 'Display [0-9]+' | awk '{print $2}' | while read -r display; do
+  ddcutil --display "$display" setvcp 10 "$BRIGHTNESS"
+done
