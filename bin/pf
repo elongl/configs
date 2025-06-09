@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Usage: ./port_forward.sh local_host:local_port remote_host:remote_port
+
+if [[ $# -ne 2 ]]; then
+    echo "Usage: $0 local_host:local_port remote_host:remote_port"
+    exit 1
+fi
+
+# Parse local address
+local_host=$(echo "$1" | cut -d: -f1)
+local_port=$(echo "$1" | cut -d: -f2)
+
+# Parse remote address
+remote_host=$(echo "$2" | cut -d: -f1)
+remote_port=$(echo "$2" | cut -d: -f2)
+
+echo "Forwarding $local_host:$local_port → $remote_host:$remote_port"
+
+# Run socat
+socat TCP-LISTEN:$local_port,bind=$local_host,reuseaddr,fork TCP:$remote_host:$remote_port
