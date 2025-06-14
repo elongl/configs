@@ -18,6 +18,3 @@ autoSquash = true
 [core]
 editor = vim
 autocrlf = input
-
-[submodule]
-recurse = true
