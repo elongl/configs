@@ -11,8 +11,17 @@ VISUAL=vim
 alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"
-alias copy="xclip -selection clipboard -i"
-alias paste="xclip -selection clipboard -o"
+
+# Cross-platform clipboard aliases
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    alias copy="pbcopy"
+    alias paste="pbpaste"
+else
+    # Linux
+    alias copy="xclip -selection clipboard -i"
+    alias paste="xclip -selection clipboard -o"
+fi
 
 # Git
 alias gstap="gsta --patch"
