@@ -108,5 +108,6 @@
     "**/.venv/**": true,
     "**/dist/**": true,
     "**/__pycache__/**": true
-  }
+  },
+  "workbench.editor.closeEmptyGroups": false
 }
