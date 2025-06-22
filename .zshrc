@@ -28,6 +28,7 @@ alias gstap="gsta --patch"
 alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
+alias gcsub="gcmsg 'Synced submodules.' --no-verify"
 
 run() {
   nohup "$@" >/dev/null 2>&1 &
