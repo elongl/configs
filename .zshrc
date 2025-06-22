@@ -12,7 +12,7 @@ alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"
 
-# Cross-platform clipboard aliases
+## Cross-platform clipboard aliases
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
     alias copy="pbcopy"
@@ -23,12 +23,29 @@ else
     alias paste="xclip -selection clipboard -o"
 fi
 
-# Git
+## Git
 alias gstap="gsta --patch"
 alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
 alias gcsub="gcmsg 'Synced submodules.' --no-verify"
+
+gus() {
+  echo "🔄 Updating all Git submodules..."
+  git submodule foreach --recursive '
+    echo "===> Entering $name"
+    branch=$(git symbolic-ref --quiet --short HEAD)
+
+    if [ -z "$branch" ]; then
+      echo "⚠️  Skipping: Detached HEAD"
+    else
+      echo "📍 On branch: $branch"
+      echo "➡️  Pulling origin/$branch..."
+      git pull origin "$branch"
+    fi
+  '
+}
+
 
 run() {
   nohup "$@" >/dev/null 2>&1 &
