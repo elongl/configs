@@ -28,7 +28,7 @@ alias gstap="gsta --patch"
 alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
-alias gcsub="gcmsg 'Synced submodules.' --no-verify"
+alias gsub="gcmsg 'Synced submodules.' --no-verify && gp"
 
 gus() {
   echo "🔄 Updating all Git submodules..."
