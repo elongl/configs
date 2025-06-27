@@ -84,6 +84,3 @@ if [ -n "$VIRTUAL_ENV" ]; then
 elif [ -d "$HOME/work/venvs/general" ]; then
     venv "$HOME/work/venvs/general"
 fi
-
-
-[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
