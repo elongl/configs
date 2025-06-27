@@ -107,6 +107,7 @@
 
 #### Displays
 
+- Disable True Tone
 - Change appearance color to Green
 
 ### Linux
