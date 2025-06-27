@@ -8,6 +8,9 @@ PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
 PATH=$HOME/bin:/opt/homebrew/bin:$PATH
 VISUAL=vim
 
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
 alias vim="nvim"
 alias k="kubectl"
 alias fin="say Finished"

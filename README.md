@@ -6,6 +6,7 @@
 - zsh & oh-my-zsh
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
+- fzf
 - Brave
   - Turn off all "Show" settings on toolbar.
   - Disable Leo in address bar.
