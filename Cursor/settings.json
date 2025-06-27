@@ -1,28 +1,4 @@
 {
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"
   },
@@ -32,8 +8,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.associations": {
-    "*.mdx": "markdown",
-    "*.sql": "jinja-sql"
+    "*.mdx": "markdown"
   },
   "files.exclude": {
     "**/__pycache__": true,
@@ -42,9 +17,6 @@
   },
   "flake8.args": ["--ignore", "W503,E203,E501"],
   "git.openRepositoryInParentFolders": "never",
-  "github.copilot.enable": {
-    "*": true
-  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.normalModeKeyBindings": [
@@ -69,35 +41,7 @@
       ]
     }
   ],
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.iconTheme": "vscode-icons",
-  "go.toolsManagement.autoUpdate": true,
-  "python.analysis.exclude": [
-    "**/.git",
-    "**/node_modules",
-    "**/__pycache__",
-    "**/dbt_packages",
-    "**/dbt_packages_docker",
-    "**/.mypy_cache",
-    "**/logs"
-  ],
-  "redhat.telemetry.enabled": false,
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "window.title": "${rootName}",
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "security.allowedUNCHosts": ["wsl.localhost"],
-  "python.analysis.typeCheckingMode": "standard",
-  "swift.warnAboutSymlinkCreation": false,
   "git.ignoreMissingGitWarning": true,
   "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
   "extensions.ignoreRecommendations": true,
@@ -109,5 +53,10 @@
     "**/dist/**": true,
     "**/__pycache__/**": true
   },
-  "workbench.editor.closeEmptyGroups": false
+  "workbench.editor.closeEmptyGroups": false,
+  "git.autofetch": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
