@@ -91,6 +91,7 @@
 
 - Profiles -> Keyboard -> Use option as meta key
 - Opacity -> 75%, Blur -> 25%
+- Font size 14
 - Give "Full disk access"
 
 #### Desktop & Dock
