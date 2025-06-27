@@ -16,6 +16,7 @@
   - Copy `.obsidian` to vault.
 - Docker & VirtualBox
 - Python & IPython
+- Discord
 - Motrix
 - OBS Studio
 - VLC Media Player
@@ -68,6 +69,10 @@
 
 ### macOS
 
+#### Networking
+
+- `sudo scutil --set HostName egk`
+
 #### Keyboard
 
 - `defaults write -g ApplePressAndHoldEnabled -bool false`
@@ -77,7 +82,6 @@
 - Press (globe) key to -> Do Nothing
 - Dictation shortcut -> Press Control Key Twice
 - Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
-- Text -> Uncheck use smart quotes
 
 #### Terminal
 
@@ -92,17 +96,12 @@
   - Screen Mirroring
   - Sound
 - Don't show recent applications
-- Mission Control
-  - Uncheck automatically rearrange spaces based on most recent use
-  - Check when switching to an application, switch to a Space with open windows
-  - Uncheck group windows by application.
-  - Check displays have separate Spaces.
 - Focus
   - Share across devices -> Off
 
 #### Displays
 
-- Disable True Tone
+- Change appearance color to Green
 
 ### Linux
 
