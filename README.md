@@ -83,10 +83,15 @@
 - Dictation shortcut -> Press Control Key Twice
 - Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
 
+#### Mouse
+
+- Disable natural scrolling
+
 #### Terminal
 
 - Profiles -> Keyboard -> Use option as meta key
 - Opacity -> 75%, Blur -> 25%
+- Give "Full disk access"
 
 #### Desktop & Dock
 
