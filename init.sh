@@ -22,6 +22,9 @@ echo "Linked TMUX."
 ln -sf $PWD/.gitconfig ~/.gitconfig
 echo "Linked Git config."
 
+ln -sf $PWD/Cursor/* ~/Library/Application\ Support/Cursor/User/
+echo "Linked Cursor."
+
 mkdir -p ~/.config/rofi
 ln -sf $PWD/rofi.rasi ~/.config/rofi/config.rasi
 
