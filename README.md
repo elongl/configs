@@ -110,6 +110,10 @@
 - Disable True Tone
 - Change appearance color to Green
 
+#### Apple Intelligence & Siri
+
+- Keyboard shortcut -> Press Left Command Key Twice
+
 ### Linux
 
 - Increase default swap file size.
