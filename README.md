@@ -114,6 +114,10 @@
 
 - Keyboard shortcut -> Press Left Command Key Twice
 
+#### Notifications
+
+- Allow notifications from iPhone -> Off
+
 ### Linux
 
 - Increase default swap file size.
