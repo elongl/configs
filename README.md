@@ -83,9 +83,10 @@
 - Dictation shortcut -> Press Control Key Twice
 - Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
 
-#### Mouse
+#### Mouse & Trackpad
 
 - Disable natural scrolling
+- Trackpad -> Click -> Light
 
 #### Terminal
 
