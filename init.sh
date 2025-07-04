@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/apps
+mkdir -p ~/apps ~/.local/bin
 
 ln -sf $PWD/bin ~/bin
 echo "Linked bin directory."
