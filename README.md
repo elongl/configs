@@ -26,6 +26,7 @@
 
 ### macOS
 
+- Raycast
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - [Maccy](https://github.com/p0deje/Maccy)
