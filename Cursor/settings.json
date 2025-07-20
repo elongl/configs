@@ -43,7 +43,7 @@
   ],
   "window.title": "${rootName}",
   "git.ignoreMissingGitWarning": true,
-  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "onFocusChange",
   "files.watcherExclude": {
