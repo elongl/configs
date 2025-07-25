@@ -31,9 +31,9 @@ alias gstap="gsta --patch"
 alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
-alias gsub="gcmsg 'Synced submodules.' --no-verify && gp"
+alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
 
-gus() {
+glsub() {
   echo "🔄 Updating all Git submodules..."
   git submodule foreach --recursive '
     echo "===> Entering $name"
