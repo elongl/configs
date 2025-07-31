@@ -97,6 +97,7 @@
 
 #### Desktop & Dock
 
+- Disable bouncing animation: `defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock`
 - Automatically hide and show the Dock
 - Menu bar
   - Bluetooth
