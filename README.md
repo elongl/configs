@@ -110,6 +110,7 @@
 #### Displays
 
 - Disable True Tone
+- Disable automatic brightness adjustment
 - Change appearance color to Green
 
 #### Apple Intelligence & Siri
