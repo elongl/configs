@@ -16,5 +16,13 @@
   {
     "key": "shift+cmd+l",
     "command": "gitlens.copyRemoteFileUrlToClipboard"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
   }
 ]
