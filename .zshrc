@@ -34,6 +34,16 @@ alias gcfix="gc --fixup"
 alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
 
 glsub() {
+  echo "🔄 Updating main repository..."
+  current_branch=$(git symbolic-ref --quiet --short HEAD)
+  if [ -z "$current_branch" ]; then
+    echo "⚠️  Main repo: Detached HEAD, skipping pull"
+  else
+    echo "📍 Main repo on branch: $current_branch"
+    echo "➡️  Pulling origin/$current_branch..."
+    git pull origin "$current_branch"
+  fi
+
   echo "🔄 Updating all Git submodules..."
   git submodule foreach --recursive '
     echo "===> Entering $name"
