@@ -13,7 +13,10 @@
   "files.exclude": {
     "**/__pycache__": true,
     "**/node_modules": true,
-    "**/.venv": true
+    "**/.venv": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/*.egg-info": true
   },
   "flake8.args": ["--ignore", "W503,E203,E501"],
   "git.openRepositoryInParentFolders": "never",
@@ -47,11 +50,13 @@
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "onFocusChange",
   "files.watcherExclude": {
-    "**/node_modules": true,
+    "**/node_modules/**": true,
     "**/.git/objects/**": true,
     "**/.venv/**": true,
     "**/dist/**": true,
-    "**/__pycache__/**": true
+    "**/__pycache__/**": true,
+    "**/build/**": true,
+    "**/*.egg-info/**": true
   },
   "workbench.editor.closeEmptyGroups": false,
   "git.autofetch": true,
