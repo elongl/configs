@@ -12,7 +12,6 @@ VISUAL=vim
 source <(fzf --zsh)
 
 alias vim="nvim"
-alias k="kubectl"
 alias fin="say Finished"
 
 ## Cross-platform clipboard aliases
@@ -25,6 +24,22 @@ else
     alias copy="xclip -selection clipboard -i"
     alias paste="xclip -selection clipboard -o"
 fi
+
+
+run() {
+  nohup "$@" >/dev/null 2>&1 &
+  disown
+}
+
+bkup() {
+  local file_path="$1"
+  cp "$file_path" "${file_path}.bkup"
+}
+
+lbkup() {
+  local file_path="$1"
+  cp "${file_path}.bkup" "$file_path"
+}
 
 ## Git
 alias gstap="gsta --patch"
@@ -58,13 +73,6 @@ glsub() {
     fi
   '
 }
-
-
-run() {
-  nohup "$@" >/dev/null 2>&1 &
-  disown
-}
-
 
 venv() {
   local venv_path="$1"
