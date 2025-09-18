@@ -14,7 +14,6 @@
     "**/__pycache__": true,
     "**/node_modules": true,
     "**/.venv": true,
-    "**/build": true,
     "**/dist": true,
     "**/*.egg-info": true
   },
@@ -23,6 +22,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
     {
       "before": ["g", "d"],
       "commands": ["editor.action.revealDefinition"]
@@ -55,7 +58,6 @@
     "**/.venv/**": true,
     "**/dist/**": true,
     "**/__pycache__/**": true,
-    "**/build/**": true,
     "**/*.egg-info/**": true
   },
   "workbench.editor.closeEmptyGroups": false,
