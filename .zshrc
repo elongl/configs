@@ -33,12 +33,30 @@ run() {
 
 bkup() {
   local file_path="$1"
-  cp "$file_path" "${file_path}.bkup"
+  local backup_path="${file_path}.bkup"
+  local counter=1
+
+  # If .bkup exists, find the next available number
+  while [[ -f "$backup_path" ]]; do
+    backup_path="${file_path}.bkup.${counter}"
+    ((counter++))
+  done
+
+  cp "$file_path" "$backup_path"
 }
 
 lbkup() {
-  local file_path="$1"
-  cp "${file_path}.bkup" "$file_path"
+  local backup_path="$1"
+
+  if [[ -z "$backup_path" ]]; then
+    echo "Error: Please provide the backup file path."
+    return 1
+  fi
+
+  # Strip .bkup or .bkup.<COUNTER> to get original filename
+  local file_path="${backup_path%.bkup*}"
+
+  cp "$backup_path" "$file_path"
 }
 
 ## Git
