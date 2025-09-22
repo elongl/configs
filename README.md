@@ -77,7 +77,7 @@
 - Key Repeat -> Fastest
 - Delay Until Repeat -> Shortest
 - Shortcuts -> Use keyboard navigation
-- Press (globe) key to -> Do Nothing
+- Shortcuts -> Modifier Keys -> Caps Lock -> No Action
 - Dictation shortcut -> Press Control Key Twice
 - Shortcuts -> Mission Control - Do Not Disturb -> ⌃⌥⌘D
 
