@@ -26,6 +26,15 @@ else
     alias paste="xclip -selection clipboard -o"
 fi
 
+## Git
+alias gstap="gsta --patch"
+alias grstp="grst --patch"
+alias gcop="gco --patch"
+alias gcfix="gc --fixup"
+alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
+alias gtf="git tag --force"
+alias gptf="git push --force --tags"
+
 
 run() {
   nohup "$@" >/dev/null 2>&1 &
@@ -59,15 +68,6 @@ lbkup() {
 
   cp "$backup_path" "$file_path"
 }
-
-## Git
-alias gstap="gsta --patch"
-alias grstp="grst --patch"
-alias gcop="gco --patch"
-alias gcfix="gc --fixup"
-alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
-alias gtf="git tag --force"
-alias gptf="git push --force --tags"
 
 glsub() {
   echo "🔄 Updating main repository..."
