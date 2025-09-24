@@ -6,7 +6,8 @@ source $HOME/.local_zshrc
 
 PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
 PATH=$HOME/bin:$HOME/.local/bin:/opt/homebrew/bin:$PATH
-VISUAL=vim
+VISUAL=nvim
+EDITOR=nvim
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
