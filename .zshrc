@@ -66,6 +66,8 @@ alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
 alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
+alias gtf="git tag --force"
+alias gptf="git push --force --tags"
 
 glsub() {
   echo "🔄 Updating main repository..."
