@@ -34,6 +34,7 @@ alias gcfix="gc --fixup"
 alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
 alias gtf="git tag --force"
 alias gptf="git push --force --tags"
+alias gcleanf="git clean -fdX"
 
 
 run() {
