@@ -70,6 +70,22 @@ lbkup() {
   cp "$backup_path" "$file_path"
 }
 
+srv() {
+  cmd="$*"
+  win_index=8
+
+  if [ -z "$TMUX" ]; then
+    echo "Not inside tmux. Please start tmux first."
+    return 1
+  fi
+
+  if ! tmux list-windows | grep -q "^$win_index:"; then
+    tmux new-window -d -t "$win_index" -n "servers" "exec $cmd"
+  else
+    tmux split-window -t "$win_index" -v "exec $cmd"
+  fi
+}
+
 glsub() {
   echo "🔄 Updating main repository..."
   current_branch=$(git symbolic-ref --quiet --short HEAD)
