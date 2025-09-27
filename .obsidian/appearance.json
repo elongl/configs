@@ -1,3 +1,6 @@
 {
-  "accentColor": "#008000"
+  "accentColor": "#008000",
+  "enabledCssSnippets": [
+    "header-spacing"
+  ]
 }
