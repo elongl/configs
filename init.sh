@@ -25,6 +25,9 @@ echo "Linked Git config."
 ln -sf $PWD/Cursor/* ~/Library/Application\ Support/Cursor/User/
 echo "Linked Cursor."
 
+ln -sf $PWD/.sqliterc ~/.sqliterc
+echo "Linked .sqliterc."
+
 mkdir -p ~/.config/rofi
 ln -sf $PWD/rofi.rasi ~/.config/rofi/config.rasi
 
