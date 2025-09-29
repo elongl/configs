@@ -43,38 +43,44 @@ run() {
 }
 
 bkup() {
-  local file_path="$1"
-  local backup_path="${file_path}.bkup"
-  local counter=1
-
-  # If .bkup exists, find the next available number
-  while [[ -e "$backup_path" ]]; do
-    backup_path="${file_path}.bkup.${counter}"
-    ((counter++))
-  done
-
-  cp -a "$file_path" "$backup_path"
-}
-
-lbkup() {
-  local backup_path="$1"
-
-  if [[ -z "$backup_path" ]]; then
-    echo "Error: Please provide the backup path."
+  if [[ $# -eq 0 ]]; then
+    echo "Error: Please provide at least one path."
     return 1
   fi
 
-  # Strip .bkup or .bkup.<COUNTER> to get original filename
-  local file_path="${backup_path%.bkup*}"
+  for file_path in "$@"; do
+    local backup_path="${file_path}.bkup"
+    local counter=1
 
-  if [[ -d "$backup_path" ]]; then
-    if [[ -e "$file_path" ]]; then
-      rm -rf "$file_path"
-    fi
-    cp -a "$backup_path" "$file_path"
-  else
-    cp -a "$backup_path" "$file_path"
+    # If .bkup exists, find the next available number
+    while [[ -e "$backup_path" ]]; do
+      backup_path="${file_path}.bkup.${counter}"
+      ((counter++))
+    done
+
+    cp -a "$file_path" "$backup_path"
+  done
+}
+
+lbkup() {
+  if [[ $# -eq 0 ]]; then
+    echo "Error: Please provide at least one backup path."
+    return 1
   fi
+
+  for backup_path in "$@"; do
+    # Strip .bkup or .bkup.<COUNTER> to get original filename
+    local file_path="${backup_path%.bkup*}"
+
+    if [[ -d "$backup_path" ]]; then
+      if [[ -e "$file_path" ]]; then
+        rm -rf "$file_path"
+      fi
+      cp -a "$backup_path" "$file_path"
+    else
+      cp -a "$backup_path" "$file_path"
+    fi
+  done
 }
 
 srv() {
