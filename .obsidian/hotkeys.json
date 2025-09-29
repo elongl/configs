@@ -46,7 +46,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowLeft"
+      "key": "H"
     }
   ],
   "editor:focus-right": [
@@ -54,7 +54,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowRight"
+      "key": "L"
     }
   ],
   "editor:set-heading-1": [
@@ -118,6 +118,22 @@
         "Mod"
       ],
       "key": "0"
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
     }
   ]
 }
