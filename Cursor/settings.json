@@ -65,5 +65,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "[swift]": {
+    "editor.defaultFormatter": "swiftlang.swift-vscode"
+  },
+  "swift.sourcekit-lsp.backgroundIndexing": "off"
 }
