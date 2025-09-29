@@ -48,26 +48,33 @@ bkup() {
   local counter=1
 
   # If .bkup exists, find the next available number
-  while [[ -f "$backup_path" ]]; do
+  while [[ -e "$backup_path" ]]; do
     backup_path="${file_path}.bkup.${counter}"
     ((counter++))
   done
 
-  cp "$file_path" "$backup_path"
+  cp -a "$file_path" "$backup_path"
 }
 
 lbkup() {
   local backup_path="$1"
 
   if [[ -z "$backup_path" ]]; then
-    echo "Error: Please provide the backup file path."
+    echo "Error: Please provide the backup path."
     return 1
   fi
 
   # Strip .bkup or .bkup.<COUNTER> to get original filename
   local file_path="${backup_path%.bkup*}"
 
-  cp "$backup_path" "$file_path"
+  if [[ -d "$backup_path" ]]; then
+    if [[ -e "$file_path" ]]; then
+      rm -rf "$file_path"
+    fi
+    cp -a "$backup_path" "$file_path"
+  else
+    cp -a "$backup_path" "$file_path"
+  fi
 }
 
 srv() {
