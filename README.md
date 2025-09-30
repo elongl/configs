@@ -14,6 +14,8 @@
 - Cursor / VSCode
 - Obsidian
   - Copy `.obsidian` to vault.
+  - Install plugins from `community-plugins`.
+    - Reminders: Use system notifications.
 - Docker & VirtualBox
 - Python & IPython
 - Discord
