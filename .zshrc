@@ -93,9 +93,9 @@ srv() {
   fi
 
   if ! tmux list-windows | grep -q "^$win_index:"; then
-    tmux new-window -d -t "$win_index" -n "servers" "exec $cmd"
+    tmux new-window -d -t "$win_index" -n "servers" "$cmd"
   else
-    tmux split-window -t "$win_index" -v "exec $cmd"
+    tmux split-window -t "$win_index" -v "$cmd"
   fi
 }
 
