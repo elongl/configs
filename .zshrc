@@ -96,6 +96,7 @@ srv() {
     tmux new-window -d -t "$win_index" -n "servers" "$cmd"
   else
     tmux split-window -t "$win_index" -v "$cmd"
+    tmux select-layout -t "$win_index" even-vertical
   fi
 }
 
