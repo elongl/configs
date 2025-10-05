@@ -31,7 +31,7 @@
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
   - Enable "Paste automatically" in Preferences.
-- [Homerow](https://www.homerow.app)
+- Raycast
 
 ### Linux
 
