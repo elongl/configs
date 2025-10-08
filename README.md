@@ -88,6 +88,10 @@
 - Disable natural scrolling
 - Trackpad -> Click -> Light
 
+#### Sound
+
+- Alert volume -> 0%
+
 #### Terminal
 
 - Profiles -> Keyboard -> Use option as meta key
