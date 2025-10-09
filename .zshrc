@@ -14,6 +14,7 @@ source <(fzf --zsh)
 
 alias vim="nvim"
 alias fin="say Finished"
+alias curl="curl -sS"
 
 ## Cross-platform clipboard aliases
 if [[ "$OSTYPE" == "darwin"* ]]; then
