@@ -11,6 +11,7 @@ EDITOR=nvim
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias vim="nvim"
 alias fin="say Finished"
