@@ -84,33 +84,6 @@
       "key": "3"
     }
   ],
-  "editor:set-heading-4": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "4"
-    }
-  ],
-  "editor:set-heading-5": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "5"
-    }
-  ],
-  "editor:set-heading-6": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "6"
-    }
-  ],
   "editor:set-heading-0": [
     {
       "modifiers": [
@@ -134,6 +107,33 @@
         "Alt"
       ],
       "key": "J"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "6"
+    }
+  ],
+  "editor:set-heading-4": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "4"
     }
   ]
 }
