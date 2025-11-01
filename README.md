@@ -41,6 +41,9 @@
 
 ### Windows
 
+- [PowerToys](https://github.com/microsoft/PowerToys)
+  - Turn off everything except _PowerToys Run_.
+
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 - WSL
   - Add `.wslconfig` to `%UserProfile%`.
