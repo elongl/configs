@@ -1,6 +1,6 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="cloud"
-plugins=(git z)
+plugins=(git z zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.local_zshrc
 
@@ -11,7 +11,6 @@ EDITOR=nvim
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias vim="nvim"
 alias fin="say Finished"
