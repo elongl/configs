@@ -47,7 +47,6 @@
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 - WSL
   - Add `.wslconfig` to `%UserProfile%`.
-  - Script `open` to run `explorer.exe`.
 
 ### VSCode Extensions
 

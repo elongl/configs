@@ -27,6 +27,11 @@ else
     alias paste="xclip -selection clipboard -o"
 fi
 
+## WSL-specific aliases
+if [[ -v WSLENV ]]; then
+    alias open="explorer.exe"
+fi
+
 ## Git
 alias gstap="gsta --patch"
 alias grstp="grst --patch"
