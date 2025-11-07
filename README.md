@@ -129,4 +129,8 @@
 
 ### Linux
 
-- Increase default swap file size.
+- Increase default swap file size
+
+### Windows
+
+- System -> Multitasking -> Uncheck "When I snap a window, suggest what I can snap next to it"
