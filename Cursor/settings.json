@@ -1,9 +1,5 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "always"
-  },
   "editor.accessibilitySupport": "off",
-  "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
