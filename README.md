@@ -15,7 +15,7 @@
 - Obsidian
   - Copy `.obsidian` to vault.
   - Install plugins from `community-plugins`.
-    - Reminders: Use system notifications.
+    - Tasks: Global filter `#task`.
 - Docker & VirtualBox
 - Python & IPython
 - Discord
