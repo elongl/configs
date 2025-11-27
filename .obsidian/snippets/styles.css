@@ -5,3 +5,18 @@
 .cm-s-obsidian .HyperMD-header.HyperMD-header-4 { padding-bottom: 6px; }
 .cm-s-obsidian .HyperMD-header.HyperMD-header-5 { padding-bottom: 4px; }
 .cm-s-obsidian .HyperMD-header.HyperMD-header-6 { padding-bottom: 2px; }
+
+table {
+    width: 100%;
+    table-layout: fixed; /* evenly distribute columns */
+}
+
+.markdown-embed {
+    border: none !important;
+}
+
+/* Remove padding specifically inside embedded notes */
+.markdown-embed .markdown-preview-view,
+.markdown-embed .embed-title {
+    padding: 0 !important;
+}
