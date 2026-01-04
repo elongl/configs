@@ -11,6 +11,9 @@
   - Turn off all "Show" settings on toolbar.
   - Disable Leo in address bar.
   - Disable password management (managed via BitWarden).
+  - PWAs
+    - Gemini
+    - Excalidraw
 - Cursor / VSCode
 - Obsidian
   - Copy `.obsidian` to vault.
