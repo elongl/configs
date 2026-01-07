@@ -12,6 +12,7 @@ EDITOR=nvim
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
 
+alias f="find . -iname"
 alias vim="nvim"
 alias fin="say Finished"
 alias curl="curl -sS"
