@@ -2,7 +2,6 @@
 
 ### General
 
-- Chatbot
 - zsh & oh-my-zsh
 - Tmux & tpm (Tmux Plugin Manager)
 - Neovim
