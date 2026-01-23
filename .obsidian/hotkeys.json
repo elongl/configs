@@ -214,5 +214,13 @@
       ],
       "key": "\\"
     }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
   ]
 }
