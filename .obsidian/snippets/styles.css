@@ -10,13 +10,3 @@ table {
     width: 100%;
     table-layout: fixed; /* evenly distribute columns */
 }
-
-.markdown-embed {
-    border: none !important;
-}
-
-/* Remove padding specifically inside embedded notes */
-.markdown-embed .markdown-preview-view,
-.markdown-embed .embed-title {
-    padding: 0 !important;
-}
