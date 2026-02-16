@@ -11,7 +11,8 @@
     "**/node_modules": true,
     "**/.venv": true,
     "**/dist": true,
-    "**/*.egg-info": true
+    "**/*.egg-info": true,
+    "**/.mypy_cache": true
   },
   "flake8.args": ["--ignore", "W503,E203,E501"],
   "git.openRepositoryInParentFolders": "never",
@@ -64,5 +65,6 @@
   "[swift]": {
     "editor.defaultFormatter": "swiftlang.swift-vscode"
   },
-  "swift.sourcekit-lsp.backgroundIndexing": "off"
+  "swift.sourcekit-lsp.backgroundIndexing": "off",
+  "security.promptForLocalFileProtocolHandling": false
 }
