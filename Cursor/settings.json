@@ -1,4 +1,5 @@
 {
+  "workbench.activityBar.orientation": "vertical",
   "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
