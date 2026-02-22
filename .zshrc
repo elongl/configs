@@ -13,6 +13,7 @@ EDITOR=nvim
 source <(fzf --zsh)
 
 alias f="find . -iname"
+alias a="codex"
 alias vim="nvim"
 alias fin="say Finished"
 alias curl="curl -sS"
