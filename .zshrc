@@ -6,6 +6,7 @@ source $HOME/.local_zshrc
 
 PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
 PATH=$HOME/bin:$HOME/.local/bin:/opt/homebrew/bin:$PATH
+
 VISUAL=nvim
 EDITOR=nvim
 
@@ -164,37 +165,6 @@ elif [ -d "$HOME/work/venvs/general" ]; then
     venv "$HOME/work/venvs/general"
 fi
 
-# Lazy load nvm to reduce massive startup time
-lazy-nvm()
-{
-  # Unset the lazy load wrappers
-  unset -f nvm node npm npx
-
-  export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-}
-
-nvm()
-{
-  lazy-nvm
-  nvm $@
-}
-
-node()
-{
-  lazy-nvm
-  node $@
-}
-
-npm()
-{
-  lazy-nvm
-  npm $@
-}
-
-npx()
-{
-  lazy-nvm
-  npx $@
-}
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
