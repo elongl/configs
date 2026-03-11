@@ -13,7 +13,7 @@
   - PWAs
     - Gemini
     - Excalidraw
-- Cursor / VSCode
+- VSCode
 - Obsidian
   - Copy `.obsidian` to vault.
   - Install plugins from `community-plugins`.

@@ -1,5 +1,4 @@
 {
-  "workbench.activityBar.orientation": "vertical",
   "editor.accessibilitySupport": "off",
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDelete": false,
@@ -16,9 +15,7 @@
     "**/.mypy_cache": true
   },
   "flake8.args": ["--ignore", "W503,E203,E501"],
-  "git.openRepositoryInParentFolders": "never",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "vim.normalModeKeyBindings": [
     {
       "before": ["g", "i"],
@@ -47,7 +44,6 @@
   ],
   "window.title": "${rootName}",
   "git.ignoreMissingGitWarning": true,
-  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "onFocusChange",
   "files.watcherExclude": {
@@ -63,9 +59,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "[swift]": {
-    "editor.defaultFormatter": "swiftlang.swift-vscode"
-  },
-  "swift.sourcekit-lsp.backgroundIndexing": "off",
-  "security.promptForLocalFileProtocolHandling": false
+  "security.promptForLocalFileProtocolHandling": false,
+  "workbench.startupEditor": "none",
+  "python.analysis.typeCheckingMode": "standard"
 }
