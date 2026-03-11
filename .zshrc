@@ -41,6 +41,7 @@ alias grstp="grst --patch"
 alias gcop="gco --patch"
 alias gcfix="gc --fixup"
 alias gcsub="gcmsg 'Synced submodules.' --no-verify && gp"
+alias gsu="git submodule update --init --recursive --jobs 8"
 alias gtf="git tag --force"
 alias gptf="git push --force --tags"
 alias gcleanf="git clean -fdX"
@@ -108,32 +109,6 @@ srv() {
     tmux split-window -t "$win_index" -v "$cmd"
     tmux select-layout -t "$win_index" even-vertical
   fi
-}
-
-glsub() {
-  echo "🔄 Updating main repository..."
-  current_branch=$(git symbolic-ref --quiet --short HEAD)
-  if [ -z "$current_branch" ]; then
-    echo "⚠️  Main repo: Detached HEAD, skipping pull"
-  else
-    echo "📍 Main repo on branch: $current_branch"
-    echo "➡️  Pulling origin/$current_branch..."
-    git pull origin "$current_branch"
-  fi
-
-  echo "🔄 Updating all Git submodules..."
-  git submodule foreach --recursive '
-    echo "===> Entering $name"
-    branch=$(git symbolic-ref --quiet --short HEAD)
-
-    if [ -z "$branch" ]; then
-      echo "⚠️  Skipping: Detached HEAD"
-    else
-      echo "📍 On branch: $branch"
-      echo "➡️  Pulling origin/$branch..."
-      git pull origin "$branch"
-    fi
-  '
 }
 
 venv() {
