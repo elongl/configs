@@ -1,5 +1,9 @@
 [
   {
+    "key": "shift+alt+cmd+c",
+    "command": "copyRelativeFilePath"
+  },
+  {
     "key": "shift+cmd+l",
     "command": "gitlens.copyRemoteFileUrlToClipboard"
   }
