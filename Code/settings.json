@@ -61,5 +61,5 @@
   },
   "security.promptForLocalFileProtocolHandling": false,
   "workbench.startupEditor": "none",
-  "python.analysis.typeCheckingMode": "standard"
+  "python.analysis.typeCheckingMode": "basic"
 }
