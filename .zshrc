@@ -14,6 +14,7 @@ EDITOR=nvim
 source <(fzf --zsh)
 
 alias f="find . -iname"
+fa() { find . -iname "*$1*" }
 alias a="codex"
 alias vim="nvim"
 alias fin="say Finished"
