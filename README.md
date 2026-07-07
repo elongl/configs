@@ -10,6 +10,7 @@
   - Turn off all "Show" settings on toolbar.
   - Disable Leo in address bar.
   - Disable password management (managed via BitWarden).
+  - Set `chrome://flags/#enable-webrtc-allow-input-volume-adjustment` to `Disabled`.
   - PWAs
     - Gemini
     - Excalidraw

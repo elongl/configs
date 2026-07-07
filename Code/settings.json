@@ -62,5 +62,6 @@
   "security.promptForLocalFileProtocolHandling": false,
   "workbench.startupEditor": "none",
   "python.analysis.typeCheckingMode": "basic",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "python.defaultInterpreterPath": "/Users/egk/work/venvs/general"
 }
