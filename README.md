@@ -29,6 +29,7 @@
   - Enable auto-save after modifications and on close.
   - Rebind tab switching to Ctrl + Tab.
 - Screen Studio
+- Google Drive App
 
 ### macOS
 
@@ -36,6 +37,7 @@
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
   - Enable "Paste automatically" in Preferences.
 - Raycast
+  - Disable all defaults; keep only Applications and Clipboard History.
 
 ### Linux
 
