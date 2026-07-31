@@ -30,6 +30,8 @@
   - Rebind tab switching to Ctrl + Tab.
 - Screen Studio
 - Google Drive App
+- Gmail
+  - Mark a conversation as read: Never.
 
 ### macOS
 
