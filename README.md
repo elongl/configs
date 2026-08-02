@@ -2,68 +2,42 @@
 
 ### General
 
-- zsh & oh-my-zsh
-- Tmux & tpm (Tmux Plugin Manager)
-- Neovim
-- fzf
+- Terminal
+  - zsh & oh-my-zsh
+  - Tmux & tpm (Tmux Plugin Manager)
+  - Neovim
+  - fzf
 - Brave
-  - Turn off all "Show" settings on toolbar.
-  - Disable Leo in address bar.
-  - Disable password management (managed via BitWarden).
-  - Set `chrome://flags/#enable-webrtc-allow-input-volume-adjustment` to `Disabled`.
-  - PWAs
-    - Gemini
-    - Excalidraw
 - VSCode
 - Obsidian
-  - Copy `.obsidian` to vault.
-  - Install plugins from `community-plugins`.
-    - Tasks: Global filter `#task`.
-- Docker & VirtualBox
+- Docker
 - Python & IPython
 - Discord
 - Motrix
 - OBS Studio
-- VLC Media Player
-- DBeaver
-  - Enable auto-save after modifications and on close.
-  - Rebind tab switching to Ctrl + Tab.
 - Screen Studio
 - Google Drive App
-- Gmail
-  - Mark a conversation as read: Never.
 
 ### macOS
 
 - Rectangle
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
-  - Enable "Paste automatically" in Preferences.
 - Raycast
-  - Disable all defaults; keep only Applications and Clipboard History.
 
 ### Linux
 
 - Rofi
-  - Bind `Alt+S` to `rofi -show window -selected-row 1`.
-  - Bind `Alt+D` to `rofi -show combi -combi-modes "drun,run" -modes combi`.
 
 ### Windows
 
 - [PowerToys](https://github.com/microsoft/PowerToys)
-  - Turn off everything except _PowerToys Run_.
-
 - [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 - WSL
-  - Add `.wslconfig` to `%UserProfile%`.
 
 ### VSCode Extensions
 
 - Vim
-- Copilot
 - GitLens
-- Dev Containers
-- Docker & Kubernetes
-- Languages & Formatters
 
 ### Browser Extensions
 
@@ -71,11 +45,55 @@
 - Bitwarden
 - Dark Reader
 - Adblock
+- Obsidian Web Clipper
+
+### Brave PWAs
+
+- Gemini
+- Excalidraw
 
 ## Setup & Settings
 
 - Disable mouse acceleration.
 - Use `init.sh` to auto-initialize the system.
+
+### Applications
+
+#### Brave
+
+- Turn off all "Show" settings on toolbar.
+- Disable Leo in address bar.
+- Disable password management (managed via BitWarden).
+- Set `chrome://flags/#enable-webrtc-allow-input-volume-adjustment` to `Disabled`.
+
+#### Gmail
+
+- Mark a conversation as read: Never.
+
+#### MonitorControl
+
+- Enable "Paste automatically" in Preferences.
+
+#### Obsidian
+
+- Copy `.obsidian` to vault.
+
+#### PowerToys
+
+- Turn off everything except _PowerToys Run_.
+
+#### Raycast
+
+- Disable all defaults; keep only Applications and Clipboard History.
+
+#### Rofi
+
+- Bind `Alt+S` to `rofi -show window -selected-row 1`.
+- Bind `Alt+D` to `rofi -show combi -combi-modes "drun,run" -modes combi`.
+
+#### WSL
+
+- Add `.wslconfig` to `%UserProfile%`.
 
 ### macOS
 
