@@ -99,6 +99,8 @@
 
 #### Networking
 
+- `sudo scutil --set ComputerName egk`
+- `sudo scutil --set LocalHostName egk`
 - `sudo scutil --set HostName egk`
 
 #### Keyboard
