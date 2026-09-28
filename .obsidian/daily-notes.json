@@ -1,3 +1,4 @@
 {
-  "folder": "Journal/Dates"
+  "folder": "Journal/Dates",
+  "template": "Journal/Dates/Template.md"
 }
