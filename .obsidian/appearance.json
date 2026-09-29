@@ -2,5 +2,6 @@
   "accentColor": "#008000",
   "enabledCssSnippets": [
     "styles"
-  ]
+  ],
+  "showRibbon": false
 }
