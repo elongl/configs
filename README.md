@@ -2,21 +2,17 @@
 
 ### General
 
+- Agents (Claude, Codex, etc.)
 - Terminal
   - zsh & oh-my-zsh
   - Tmux & tpm (Tmux Plugin Manager)
   - Neovim
   - fzf
 - Brave
-- VSCode
 - Obsidian
-- Docker
-- Python & IPython
 - Discord
-- Motrix
 - OBS Studio
-- Screen Studio
-- Google Drive App
+- Budgeteer
 
 ### macOS
 
@@ -30,22 +26,14 @@
 
 ### Windows
 
-- [PowerToys](https://github.com/microsoft/PowerToys)
-- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 - WSL
-
-### VSCode Extensions
-
-- Vim
-- GitLens
+- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
 
 ### Browser Extensions
 
 - Vimium
 - Bitwarden
 - Dark Reader
-- Adblock
-- Obsidian Web Clipper
 
 ### Brave PWAs
 
@@ -70,17 +58,9 @@
 
 - Mark a conversation as read: Never.
 
-#### MonitorControl
-
-- Enable "Paste automatically" in Preferences.
-
 #### Obsidian
 
 - Copy `.obsidian` to vault.
-
-#### PowerToys
-
-- Turn off everything except _PowerToys Run_.
 
 #### Raycast
 
