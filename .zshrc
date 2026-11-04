@@ -112,34 +112,6 @@ srv() {
   fi
 }
 
-venv() {
-  local venv_path="$1"
-
-  if [[ -z "$venv_path" ]]; then
-    echo "Error: Please provide the path to the virtual environment."
-    return
-  fi
-
-  source "$venv_path/bin/activate"
-
-  if [[ -n "$TMUX" ]]; then
-    tmux set-environment VIRTUAL_ENV "$VIRTUAL_ENV"
-  fi
-}
-
-devenv() {
-  deactivate
-
-  if [[ -n "$TMUX" ]]; then
-    tmux set-environment -u VIRTUAL_ENV
-  fi
-}
-
-if [ -n "$VIRTUAL_ENV" ]; then
-    source $VIRTUAL_ENV/bin/activate
-elif [ -d "$HOME/work/venvs/general" ]; then
-    venv "$HOME/work/venvs/general"
-fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
