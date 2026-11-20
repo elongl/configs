@@ -222,5 +222,13 @@
       ],
       "key": "L"
     }
+  ],
+  "editor:toggle-readable-line-length": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }
