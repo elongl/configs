@@ -77,6 +77,10 @@
 
 ### macOS
 
+#### Battery
+
+- System Settings → Battery → Options → Prevent automatic sleeping on power adapter when the display is off → On. Leave screen locking enabled.
+
 #### Networking
 
 - `sudo scutil --set ComputerName egk`
