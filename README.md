@@ -12,7 +12,6 @@
 - Obsidian
 - Discord
 - OBS Studio
-- Budgeteer
 
 ### macOS
 
@@ -20,30 +19,15 @@
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl)
 - Raycast
 
-### Linux
-
-- Rofi
-
-### Windows
-
-- WSL
-- [Twinkle Tray](https://github.com/xanderfrangos/twinkle-tray)
-
 ### Browser Extensions
 
 - Vimium
 - Bitwarden
 - Dark Reader
 
-### Brave PWAs
-
-- Gemini
-- Excalidraw
-
 ## Setup & Settings
 
 - Disable mouse acceleration.
-- Use `init.sh` to auto-initialize the system.
 
 ### Applications
 
@@ -65,15 +49,6 @@
 #### Raycast
 
 - Disable all defaults; keep only Applications and Clipboard History.
-
-#### Rofi
-
-- Bind `Alt+S` to `rofi -show window -selected-row 1`.
-- Bind `Alt+D` to `rofi -show combi -combi-modes "drun,run" -modes combi`.
-
-#### WSL
-
-- Add `.wslconfig` to `%UserProfile%`.
 
 ### macOS
 
@@ -134,11 +109,3 @@
 #### Notifications
 
 - Allow notifications from iPhone -> Off
-
-### Linux
-
-- Increase default swap file size
-
-### Windows
-
-- System -> Multitasking -> Uncheck "When I snap a window, suggest what I can snap next to it"

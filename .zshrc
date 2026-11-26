@@ -5,7 +5,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.local_zshrc
 
 PROMPT='%{$fg[yellow]%}[%D{%H:%M:%S}] '$PROMPT
-PATH=$HOME/bin:$HOME/.local/bin:/opt/homebrew/bin:$PATH
+PATH=$HOME/.local/bin:/opt/homebrew/bin:$PATH
 
 VISUAL=nvim
 EDITOR=nvim
@@ -29,11 +29,6 @@ else
     # Linux
     alias copy="xclip -selection clipboard -i"
     alias paste="xclip -selection clipboard -o"
-fi
-
-## WSL-specific aliases
-if [[ -v WSLENV ]]; then
-    alias open="explorer.exe"
 fi
 
 ## Git
