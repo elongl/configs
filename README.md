@@ -87,6 +87,7 @@
 #### Desktop & Dock
 
 - Disable bouncing animation: `defaults write com.apple.dock no-bouncing -bool TRUE && killall Dock`
+- Show the ⌘Tab app switcher on the Dock’s display instead of the focused display (macOS 27): `defaults write com.apple.dock appswitcher-dock-display -bool true && killall Dock`
 - Automatically hide and show the Dock
 - Menu bar
   - Bluetooth
